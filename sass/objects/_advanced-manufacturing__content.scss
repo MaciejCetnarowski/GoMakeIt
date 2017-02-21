@@ -1,0 +1,36 @@
+.advanced-manufacturing__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: $light-gray;
+    border-radius: $content-radius;
+    h1 {
+        border-top-left-radius: $content-radius;
+        border-top-right-radius: $content-radius;
+        background: $sea;
+        color: $dark-blue;
+        width: 100%;
+        padding: 3.4rem 2.2rem;
+        margin: 0;
+        line-height: 0;
+        text-transform: uppercase;
+        font-size: 2rem;
+        font-family: 'Qanelas-black';
+    }
+
+    h2 {
+        padding: 3rem 2.2rem;
+        font-size: 1.4rem;
+        line-height: 0;
+        color: $dark-blue;
+        font-family: 'Qanelas-semibold';
+    }
+
+    p {
+        width: 65%;
+        padding: 0 2.2rem;
+        font-size: 1.2rem;
+        font-family: 'Qanelas-light';
+        line-height: 1.6;
+    }
+}

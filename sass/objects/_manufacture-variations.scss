@@ -1,0 +1,29 @@
+.manufacture-variations {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 2rem 2.2rem;
+    width: 60%;
+}
+
+.manufacture-variations__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    img {
+        width: 60%;
+        user-select: none;
+    }
+
+    figcaption {
+        margin-top: 1rem;
+        word-wrap: nowrap;
+        font-family: 'Qanelas-semibold';
+        font-size: 1rem;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 1.6;
+        color: $dark-blue;
+    }
+}

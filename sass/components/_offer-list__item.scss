@@ -1,0 +1,17 @@
+.offer-list__item{
+  font-family:'Qanelas-medium';
+  font-size:16px;
+  margin-bottom:15px;
+  transition:color .3s;
+  color:$half-white;
+  &:hover{
+    color:$white;
+  }
+  a{
+    text-transform:uppercase;
+    span{
+      color:$white;
+      font-size:22px;
+    }
+  }
+}

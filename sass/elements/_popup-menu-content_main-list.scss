@@ -1,0 +1,12 @@
+.popup-menu-content__main-list{
+    position:relative;
+  &:before{
+    content:'';
+    position:absolute;
+    background:$dark-sea;
+    width:2px;
+    height:96%;
+    top:2%;
+    right:0;
+  }
+}

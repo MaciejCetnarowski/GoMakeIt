@@ -1,0 +1,25 @@
+.main-list__item a{
+  display:flex;
+  align-items:center;
+  padding:20px;
+  margin-right:40px;
+  width:400px;
+  transition:all .3s;
+  img{
+    width:15%;
+    margin-right:20px;
+    transition:all .3s;
+  }
+  &:hover{
+    background:$dark-sea;
+    img{
+      transform:translate(10px,0);
+    }
+    .main-list__item_text{
+      h1,p{
+        color:rgba(255,255,255,1);
+        transform:translate(10px,0);
+      }
+    }
+  }
+}
