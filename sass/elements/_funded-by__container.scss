@@ -1,0 +1,23 @@
+.funded-by__container{
+  display:flex;
+  align-items:flex-end;
+  flex-direction:column;
+  h1{
+    font-size:2rem;
+    text-transform:uppercase;
+    color:$dark-blue;
+  }
+}
+.fundators-list{
+  list-style-type:none;
+  display:flex;
+  padding:0;
+  margin:0;
+  align-items:baseline;
+  justify-content:flex-end;
+  // width:100%;;
+  li{
+    margin-right:2rem;
+    user-select:none;
+  }
+}

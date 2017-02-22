@@ -1,0 +1,16 @@
+.fig-container{
+  position:relative;
+  padding:8rem 0;
+  display:flex;
+  justify-content:center;
+  user-select:none;
+  &>img{
+    position:absolute;
+    top:0;
+    left:0;
+  }
+  &:nth-child(even)>img{
+    //to 'center' right background
+    left:-5%;
+  }
+}

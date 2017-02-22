@@ -1,0 +1,54 @@
+.hex-big-icon{
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+
+  img{
+    width:30rem;
+  }
+
+  figcaption{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-66%);
+    text-align:center;
+    // width for prevent text-wrapping
+    width:30rem;
+    h1{
+      font-family:'Qanelas-black';
+      text-transform:uppercase;
+      font-size:6rem;
+      line-height:0.6;
+    }
+    h2{
+      font-size:1.2rem;
+      text-transform:uppercase;
+      color:$light-gray;;
+      font-family:'Qanelas-medium'
+    }
+  }
+
+}
+
+.icon-be{
+  h1{
+    color:$sea;
+  }
+}
+.icon-do{
+  h1{
+    color:$yellow;
+  }
+}
+.icon-xplr{
+  h1{
+    color:$rose;
+  }
+}
+.icon-plan{
+  h1{
+    color:$dark-blue;
+  }
+}

@@ -68,3 +68,23 @@
     font-size:1.2rem;
   }
 }
+.primary-button--cut{
+  position:relative;
+  padding-left:3rem;
+  transform:translate(3rem,-1rem) skew(19deg);
+  margin:0;;
+
+  &:before{
+    content:'';
+    position:absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    width:40px;
+    border-radius:$primary-radius;
+    background:$yellow;
+    transform:skew(-19deg);
+    transform-origin:0 0;
+  }
+
+}

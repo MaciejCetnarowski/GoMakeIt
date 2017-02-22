@@ -1,15 +1,16 @@
 .manufacture-variations {
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
+    justify-content: flex-start;;
     padding: 2rem 2.2rem;
-    width: 60%;
+    width: 100%
 }
 
 .manufacture-variations__item {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-right:5%;
 
     img {
         width: 60%;

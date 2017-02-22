@@ -1,10 +1,53 @@
-.advanced-manufacturing__movie{
-  border-top-right-radius:$content-radius;
-  position:absolute;
-  right:0;
-  top:0;
-  bottom:0;
-  width:40%;
-  background:url('../imgs/homepage/cut_rectangle.png') no-repeat;
-  background-size:cover;
+.advanced-manufacturing__movie {
+    border-top-right-radius: $content-radius;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width:30rem;
+    background: $gray;
+    transform: skew(-19deg);
+    transform-origin: 0 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+
+    h2 {
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+        font-size: 1.4rem;
+        color: $dark-blue;
+        font-family: 'Qanelas-semibold';
+
+        img {
+            transform: translate(10%,45%);
+        }
+    }
+
+    & > * {
+        transform: skew(19deg);
+        margin-left: 3rem;
+    }
+}
+
+.movie-player {
+    position: relative;
+    margin-left: -65%;
+    user-select:none;
+
+    img {
+        width: 100%;
+    }
+
+    i {
+        position: absolute;
+        top: 50%;
+        right: 30%;
+        transform: translate(0,-50%);
+        font-size: 6rem;
+        color: $white;
+    }
 }

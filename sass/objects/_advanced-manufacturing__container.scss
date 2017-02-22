@@ -4,5 +4,6 @@
   position:relative;
   transform:translate(0,-60px);
   z-index:0;
-  // transform:skew(20deg);
+  overflow:hidden;
+  border-radius:$content-radius;
 }

@@ -1,0 +1,17 @@
+.top-footer{
+  background:linear-gradient(90deg,$light-gray 50%,$gray 50%);
+  padding:4rem 0;
+}
+
+.top-footer__container{
+  width:100%;
+  margin:0 auto;
+  display:flex;
+  align-items:flex-start;
+  flex-wrap:wrap;
+  justify-content:center;
+  &>*{
+    width:calc(100%/2);
+    padding:4rem 2rem 4rem 4rem;
+  }
+}

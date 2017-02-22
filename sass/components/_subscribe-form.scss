@@ -1,0 +1,28 @@
+.subscribe__form{
+  border-radius:5px;
+  display:flex;
+  align-items:center;
+  background:$white;
+  width:500px;
+  margin:1rem 0;
+
+  label{
+  color:$gray;
+  padding: 0 1rem;
+  font-size:1.4rem;
+  user-select:none;
+  }
+  input{
+  outline:0;
+  background:$white;
+  border:0;
+  padding:1rem 0;
+  width:100%;
+  font-size:1rem;
+  color:$dark-blue;
+  font-family:'Qanelas-regular';
+  }
+  button{
+    margin:0;
+  }
+}
