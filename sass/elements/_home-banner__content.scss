@@ -20,6 +20,22 @@
     line-height:1.4;
   }
 
+}
 
+@media screen and (max-width:1600px){
+  .home-banner__content{
+    width:85%;
+  }
+}
 
+@media screen and (max-width:1024px){
+  .home-banner__content{
+    align-items:center;
+    text-align:center;
+    padding:16rem 0 10rem 0;
+    width:100%;
+    h1{
+    line-height:1;
+    }
+  }
 }

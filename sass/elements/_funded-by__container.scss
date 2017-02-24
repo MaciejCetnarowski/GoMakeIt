@@ -15,9 +15,23 @@
   margin:0;
   align-items:baseline;
   justify-content:flex-end;
-  // width:100%;;
+
   li{
     margin-right:2rem;
     user-select:none;
+  }
+}
+
+@media screen and (max-width:1200px){
+  .fundators-list{
+    li{
+      margin-right:0rem;;
+    }
+  }
+}
+
+@media screen and (max-width:1024px){
+  .funded-by__container{
+    align-items:center;
   }
 }

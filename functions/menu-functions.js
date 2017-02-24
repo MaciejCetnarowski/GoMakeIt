@@ -12,3 +12,26 @@ mob_button.addEventListener('click',()=>{
 //   btn5.classList.toggle('active');
 // }
 // btn5.addEventListener('click',activate)
+
+
+// var mq = window.matchMedia( "(min-width: 768px)" );
+// const slider = document.querySelector('.variations-slider');
+//
+// if (matchMedia) {
+//   console.log('no')
+// }
+//
+// // media query change
+// function WidthChange() {
+//   var mq = window.matchMedia( "(max-width: 768px)" );
+//   if (mq.matches) {
+//     slider.classList.remove('variations-slider');
+//   } else {
+//     // window width is less than 500px
+//   }
+//
+// }
+//
+//
+// //
+// window.addEventListener('resize',WidthChange);

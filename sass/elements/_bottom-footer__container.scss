@@ -1,0 +1,44 @@
+.bottom-footer__container{
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  font-family:'Qanelas-regular';
+  .footer-navlist{
+    list-style-type:none;
+    display:flex;
+    justify-content:center;
+    color:$white;
+    text-transform:uppercase;
+    font-family:'Qanelas-semibold';
+    li{
+      margin:0 1rem;
+    }
+
+  }
+  .copyright{
+    color:$almost-white;
+    border-bottom:1px solid $almost-white;
+
+    padding-bottom:1.4rem;
+    font-size:1rem;
+  }
+  .policy-list{
+    list-style-type:none;
+    font-size:1rem;
+    color:$almost-white;
+    margin-top:1.4rem;
+    display:flex;
+    li{
+      display:flex;
+      align-items:center;
+    &:nth-child(n+2):before{
+      content:'\f111';
+      font-family:'fontawesome';
+      font-size:.4rem;
+      line-height:0;
+      margin:0 1rem;
+    }
+    }
+  }
+}

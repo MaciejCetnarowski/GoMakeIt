@@ -5,6 +5,7 @@
   margin-right:40px;
   width:400px;
   transition:all .3s;
+  position:relative;
   img{
     width:15%;
     margin-right:20px;
@@ -21,5 +22,14 @@
         transform:translate(10px,0);
       }
     }
+  }
+  &:before{
+    content:'';
+    position:absolute;
+    bottom:0;
+    left:0;
+    height:1px;
+    background:$gray;
+    width:40%;
   }
 }

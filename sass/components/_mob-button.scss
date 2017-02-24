@@ -48,3 +48,22 @@
   transform:translateY(-2px) rotate(-45deg);
   transform-origin:0% 0%;
 }
+
+
+
+@media screen and (max-width:1600px){
+  .mob-button{
+    padding:0 9% 0 15px;
+  }
+}
+@media screen and (max-width:768px){
+  .mob-button{
+
+    padding:0 20px 0 20px;
+  }
+}
+// @media screen and (max-width:1024px){
+//   .mob-button{
+//     padding:0 2% 0 15px !important;
+//   }
+// }

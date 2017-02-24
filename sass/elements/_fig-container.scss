@@ -8,9 +8,61 @@
     position:absolute;
     top:0;
     left:0;
+    height:100%;
   }
   &:nth-child(even)>img{
     //to 'center' right background
-    left:-5%;
+    left:-3%;
+  }
+}
+@media screen and (max-width:1600px){
+  .fig-container{
+    &:nth-child(even)>img{
+      //to 'center' right background
+      left:-2%;
+    }
+  }
+}
+@media screen and (max-width:1440px){
+  .fig-container{
+
+    &:nth-child(even)>img{
+      //to 'center' right background
+      left:-5%;
+    }
+  }
+
+}
+@media screen and (max-width:1200px){
+  .fig-container{
+    &:nth-child(even)>img{
+      //to 'center' right background
+      left:-15%;
+    }
+  }
+
+}
+
+@media screen and (max-width:1024px){
+  .fig-container{
+    padding:4rem 0;
+    &>img{
+      min-width:1024px;
+    }
+    &:nth-child(even)>img{
+      min-width:125%;
+      left:-25%;
+    }
+  }
+}
+@media screen and (max-width:768px){
+  .fig-container{
+    &>img{
+      min-width:768px;
+    }
+    &:nth-child(even)>img{
+      min-width:135%;
+      left:-35%;
+    }
   }
 }

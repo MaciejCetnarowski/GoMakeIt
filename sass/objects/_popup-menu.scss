@@ -1,23 +1,32 @@
 .popup-menu.active{
-  width:100vw;
-  height:calc(100vh - #{$header_height});
+  // width:100vw;
+  // height:calc(100vh - #{$header_height});
   background:$sea;
   position:fixed;
-  left:0;
-  bottom:0;
+  // left:0;
+  // bottom:0;
   display:flex;
   align-items:center;
   justify-content:center;
   animation: popupMenu .5s forwards;
   opacity:0;
   z-index:10;
+
+
+  //changes
+  margin-top:calc(#{$header_height}) ;
 }
 .popup-menu{
   display:none;
   // animation: closeMenu .5s forwards;
+  // changes
+height:0;
+width:0;
 }
 @keyframes popupMenu{
 to{
-  opacity:0.9;
+  opacity:0.95;
+  width:100vw;
+  height:calc(100vh - #{$header_height});
 }
 }
