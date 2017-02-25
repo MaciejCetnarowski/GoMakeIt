@@ -1,6 +1,7 @@
 @import 'settings/colors';
 @import 'settings/fonts';
 @import 'settings/variables';
+
 @import 'generic/_normalize';
 @import 'generic/_link-reset';
 @import 'generic/_user-select';
@@ -18,8 +19,6 @@
 @import 'objects/_top-footer';
 @import 'objects/_bottom-footer';
 
-
-
 @import 'elements/_popup-menu-content';
 @import 'elements/_popup-menu-content_main-list';
 @import 'elements/_popup-menu-content__offer-list';
@@ -30,7 +29,6 @@
 @import 'elements/_footer-social-icons';
 @import 'elements/_bottom-footer__container';
 @import 'elements/_variations-slider';
-
 
 @import 'components/_mob-button';
 @import 'components/_social-icon';

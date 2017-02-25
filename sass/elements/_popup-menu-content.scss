@@ -4,3 +4,9 @@
 .popup-menu-content__main-list{
   list-style-type:none;
 }
+@media screen and (max-width:768px){
+  .popup-menu-content{
+    display:flex;
+    flex-direction:column;
+  }
+}

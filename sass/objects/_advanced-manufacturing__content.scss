@@ -48,8 +48,19 @@
           text-align:center;
       }
       p {
-          width: 90%;
+          width: 95%;
           text-align:center;
       }
   }
+}
+
+@media screen and (max-width:768px){
+  .advanced-manufacturing__content {
+      border-top-left-radius:$content-radius;
+      border-top-right-radius:$content-radius;
+      h1 {
+          border-top-left-radius:$content-radius;
+          border-top-right-radius:$content-radius;
+      }
+}
 }

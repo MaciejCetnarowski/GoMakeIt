@@ -10,3 +10,12 @@
     right:0;
   }
 }
+
+@media screen and (max-width:768px){
+  .popup-menu-content__main-list{
+    margin-top:$header-height;
+    &:before{
+    display:none;
+    }
+  }
+}

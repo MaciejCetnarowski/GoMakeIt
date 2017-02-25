@@ -14,3 +14,13 @@
     transition:all .3s;
   }
 }
+@media screen and (max-width:425px){
+  .main-list__item_text{
+    h1{
+      font-size:28px;
+    }
+    p{
+      font-size:14px;
+    }
+  }
+}
