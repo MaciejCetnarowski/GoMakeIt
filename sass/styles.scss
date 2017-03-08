@@ -3,40 +3,23 @@
 @import 'settings/variables';
 
 @import 'generic/_normalize';
-@import 'generic/_link-reset';
-@import 'generic/_user-select';
-@import 'generic/_figure-reset';
+@import 'generic/_reset';
 
 @import 'objects/_header';
 @import 'objects/_popup-menu';
 @import 'objects/_home-banner';
 @import 'objects/_advanced-manufacturing';
-@import 'objects/_advanced-manufacturing__container';
-@import 'objects/_advanced-manufacturing__content';
-@import 'objects/_manufacture-variations';
-@import 'objects/_advanced-manufacturing__movie';
 @import 'objects/_imgs-container';
 @import 'objects/_top-footer';
 @import 'objects/_bottom-footer';
+// about-us subpage
+@import 'objects/_about-us-container';
+@import 'objects/_info-for-parents';
 
-@import 'elements/_popup-menu-content';
-@import 'elements/_popup-menu-content_main-list';
-@import 'elements/_popup-menu-content__offer-list';
-@import 'elements/_home-banner__content';
-@import 'elements/_fig-container';
-@import 'elements/_funded-by__container';
-@import 'elements/_be-updated__container';
-@import 'elements/_footer-social-icons';
-@import 'elements/_bottom-footer__container';
 @import 'elements/_variations-slider';
+@import 'elements/_subscribe-form';
 
 @import 'components/_mob-button';
 @import 'components/_social-icon';
-@import 'components/_social-icon';
-@import 'components/_main-list__item';
-@import 'components/_main-list__item_text';
-@import 'components/_offer-list__item';
-
 @import 'components/_buttons';
-@import 'components/_hex-big-icon';
-@import 'components/_subscribe-form';
+@import 'components/_banner-slider__dots';

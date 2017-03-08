@@ -15,10 +15,9 @@
 <body>
     <section id="home">
         <header class="home-header">
-            <div class="header-container">
-                <img class="header-logo" src="imgs/GoMakeItLogo.png" alt="logo">
-                <nav class="header-nav">
-                    <ul class="header-nav-list">
+            <div class="header-container"><a href="#"><img class="header-logo" src="imgs/GoMakeItLogo.png" alt="logo"></a>
+                <nav class="header-social">
+                    <ul class="header-social-list">
                         <li class="social-icon social-icon--centered">
                             <a href="https://facebook.com" target="_blank">
                                 <img src="imgs/Hexagon.svg"></img><i class="fa fa-facebook" aria-hidden="true"></i>
@@ -91,18 +90,34 @@
                     </li>
                 </ul>
                 <ul class="popup-menu-content__offer-list">
-                    <li class="offer-list__item"><a href=""><span>&rtrif;</span> About go make it</a></li>
+                    <li class="offer-list__item"><a href="about.html"><span>&rtrif;</span> About go make it</a></li>
                     <li class="offer-list__item"><a href=""><span>&rtrif;</span> Info for parents</a></li>
                     <li class="offer-list__item"><a href=""><span>&rtrif;</span> Get involved</a></li>
                     <li class="offer-list__item"><a href=""><span>&rtrif;</span> Contact us</a></li>
                 </ul>
             </div>
         </div>
-        <div class="home-banner">
-            <div class="home-banner__content">
-                <h1>Love what you do</h1>
-                <p>Get paid well for doing it. There's a job for everyone<br> inadvanced manufacturing.</p>
-                <button class="primary-button">Find the job for you<i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+        <div class="banner-slider">
+            <div class="home-banner">
+                <div class="home-banner__content">
+                    <h1>Love what you do</h1>
+                    <p>Get paid well for doing it. There's a job for everyone<br> inadvanced manufacturing.</p>
+                    <button class="primary-button">Find the job for you<i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class="home-banner">
+                <div class="home-banner__content">
+                    <h1>Love what you do</h1>
+                    <p>Get paid well for doing it. There's a job for everyone<br> inadvanced manufacturing.</p>
+                    <button class="primary-button">Find the job for you<i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class="home-banner">
+                <div class="home-banner__content">
+                    <h1>Love what you do</h1>
+                    <p>Get paid well for doing it. There's a job for everyone<br> inadvanced manufacturing.</p>
+                    <button class="primary-button">Find the job for you<i class="fa fa-angle-double-right" aria-hidden="true"></i></button>
+                </div>
             </div>
         </div>
 
@@ -212,7 +227,8 @@
                     <h1>Be updated</h1>
                     <p>Subscribe to the newsletter to receive new and updates directly in email inbox!</p>
                     <form class="subscribe__form" action="">
-                        <label for="email">@</label><input id="email" type="email" placeholder="Email address">
+                        <label for="email">@</label>
+                        <input id="email" type="email" placeholder="Email address">
                         <button class="primary-button">Subscribe</button>
                     </form>
                 </div>
@@ -250,7 +266,7 @@
                     </li>
                 </ul>
                 <div class="copyright">
-                    <p>Copyright &copy; 2016 GoMakeIt. All rights reserved</p>
+                    <p>Copyright &copy; 2016 GoMakeIt.<br> All rights reserved</p>
                 </div>
                 <ul class="policy-list">
                     <li><a href="">Privacy Policy</a></li>
@@ -263,43 +279,9 @@
     <script type="text/javascript" src="http://localhost:35729/livereload.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-
-
-    <script>
-    $(document).ready(function(){
-  $('.variations-slider').slick({
-  centerMode: true,
-  centerPadding: '10px',
-  slidesToShow: 1,
-  arrows:false,
-  variableWidth: true,
-  infinite:false,
-  swipeToSlide:true
-  // responsive: [
-  //   {
-  //     breakpoint: 768,
-  //     settings: {
-  //       arrows: false,
-  //       centerMode: true,
-  //       centerPadding: '40px',
-  //       slidesToShow: 1
-  //     }
-  //   },
-  //   {
-  //     breakpoint: 480,
-  //     settings: {
-  //       arrows: false,
-  //       centerMode: true,
-  //       centerPadding: '40px',
-  //       slidesToShow: 1
-  //     }
-  //   }
-  // ]
-});
-});
-
-    </script>
     <script type="text/javascript" src="functions/slick-1.6.0/slick/slick.min.js"></script>
+    <script src="functions/slidersInit.js"></script>
+
 </body>
 
 </html>

@@ -67,3 +67,16 @@
 //     padding:0 2% 0 15px !important;
 //   }
 // }
+.mob-button--arrow{
+  &:before{
+    content:'';
+    position:absolute;
+    width:40px;
+    top:0;
+    right:100%;
+    border-top: calc(#{$header_height}/2) solid transparent;
+    border-bottom: calc(#{$header_height}/2) solid transparent;
+    border-left: 20px solid transparent;
+    border-right: 20px solid $sea;
+  }
+}

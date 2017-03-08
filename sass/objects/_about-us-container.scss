@@ -1,0 +1,72 @@
+.about-us{
+  position:relative;
+  background:$dark-sea;
+  padding:10rem 0;
+}
+.about-us-container{
+  width:85%;
+  margin-left:auto;
+  display:flex;
+  align-items:flex-start;
+  justify-content:space-between;
+}
+.about-us-content{
+  width:60%;
+  h1{
+    font-size:3.4rem;
+    color:$yellow;
+    font-family:'Qanelas-black';
+    line-height:1;
+  }
+  p{
+    font-size:1.4rem;
+    line-height:1.6;
+  }
+  p:nth-of-type(1){
+    color:$white;
+    font-family:'Qanelas-medium';
+    margin-bottom:2rem;
+  }
+  p:nth-of-type(2){
+    color:$half-white;
+    font-family:'Qanelas-regular';
+  }
+}
+.phone-image{
+  margin-top:2rem;
+  user-select:none;
+}
+
+@media screen and (max-width:1600px){
+  .about-us-container{
+    width:calc(100% - 15%/2);
+  }
+}
+
+@media screen and (max-width:1440px){
+  .phone-image{
+    width:40%;
+  }
+}
+@media screen and (max-width:1024px){
+  .about-us{
+    position:relative;
+    background:$dark-sea;
+    padding:8rem 0 4rem 0;
+  }
+  .about-us-container{
+    width:85%;
+    margin:0 auto;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column-reverse;
+  }
+  .phone-image{
+    width:60%;
+  }
+  .about-us-content{
+    width:100%;
+    transform:translate(0,-2rem);
+    text-align:center;
+  }
+}

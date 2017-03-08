@@ -1,0 +1,68 @@
+.subscribe__form{
+  border-radius:5px;
+  display:flex;
+  align-items:center;
+  background:$white;
+  width:500px;
+  margin:1rem 0;
+
+
+  label{
+  color:$gray;
+  padding: 0 1rem;
+  font-size:1.4rem;
+  user-select:none;
+  }
+  input{
+  outline:0;
+  background:$white;
+  border:0;
+  padding:1rem 0;
+  width:100%;
+  font-size:1rem;
+  color:$dark-blue;
+  font-family:'Qanelas-regular';
+  }
+  button{
+    margin:0;
+  }
+}
+
+@media screen and (max-width:1440px){
+  .subscribe__form{
+    width:400px;
+  }
+}
+
+@media screen and (max-width:425px){
+  .subscribe__form{
+    display:block;
+    width:100%;
+    //
+    //
+    // flex-direction:column;
+    // justify-content:center;
+    background:none;
+
+
+    label{
+    padding: 0.765rem;
+    // transform:translate(400%,110%);
+    background:$white;
+    float:left;
+    width:50px;
+    border-right:1px solid $gray;
+    border-top-left-radius:$content-radius;
+    border-bottom-left-radius:$content-radius;
+
+    }
+    input{
+    width:calc(100% - 50px);
+    margin-bottom:1rem;
+    padding:1rem;
+    float:right;
+    border-top-right-radius:$content-radius;
+    border-bottom-right-radius:$content-radius;
+  }
+}
+}
