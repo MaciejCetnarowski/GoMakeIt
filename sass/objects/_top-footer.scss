@@ -1,122 +1,120 @@
-.top-footer{
-  background:linear-gradient(90deg,$light-gray 50%,$gray 50%);
-  padding:4rem 0;
+.top-footer {
+    background: linear-gradient(90deg,$light-gray 50%,$gray 50%);
+    padding: 4rem 0;
 }
 
-.top-footer__container{
-  width:100%;
-  margin:0 auto;
-  display:flex;
-  align-items:flex-start;
-  flex-wrap:wrap;
-  justify-content:center;
-  &>*{
-    width:calc(100%/2);
-    padding:4rem 2rem 4rem 4rem;
-  }
-}
+.top-footer__container {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: center;
 
-@media screen and (max-width:1024px){
-  .top-footer{
-    background:linear-gradient($light-gray 50%,$gray 50%);
-    padding:0;
-  }
-
-  .top-footer__container{
-
-    width:100%;
-    margin:0 auto;
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-    flex-wrap:wrap;
-    &>*{
-      margin:0 auto;
-      text-align:center;
-      width:100%;
-      padding:2rem 2rem 2rem 2rem;
-      align-items:center;
+    & > * {
+        width: calc(100%/2);
+        padding: 4rem 2rem 4rem 4rem;
     }
-  }
-
-
 }
-
-
-.funded-by__container{
-  display:flex;
-  align-items:flex-end;
-  flex-direction:column;
-  h1{
-    font-size:2rem;
-    text-transform:uppercase;
-    color:$dark-blue;
-  }
-}
-.fundators-list{
-  list-style-type:none;
-  display:flex;
-  padding:0;
-  margin:0;
-  align-items:baseline;
-  justify-content:flex-end;
-
-  li{
-    margin-right:2rem;
-    user-select:none;
-  }
-}
-
-@media screen and (max-width:1200px){
-  .fundators-list{
-    li{
-      margin-right:0rem;;
+@media screen and (max-width:1024px) {
+    .top-footer {
+        background: linear-gradient($light-gray 50%,$gray 50%);
+        padding: 0;
     }
-  }
-}
 
-@media screen and (max-width:1024px){
-  .funded-by__container{
-    align-items:center;
-  }
-}
+    .top-footer__container {
+        width: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
 
-@media screen and (max-width:768px){
-  .fundators-list{
-    li img{
-      width:90%;
+        & > * {
+            margin: 0 auto;
+            text-align: center;
+            width: 100%;
+            padding: 2rem;
+            align-items: center;
+        }
     }
-  }
 }
-@media screen and (max-width:425px){
 
-  .funded-by__container{
-  background:$light-gray;
-  }
-  .fundators-list{
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
-    li img{
-      width:100%;
+.funded-by__container {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+
+    h1 {
+        font-size: 2rem;
+        text-transform: uppercase;
+        color: $dark-blue;
     }
-  }
 }
 
+.fundators-list {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    align-items: baseline;
+    justify-content: flex-end;
 
-.be-updated__container{
-  display:flex;
-  justify-content:flex-start;
-  flex-direction:column;
-  h1{
-    font-size:2rem;
-    text-transform:uppercase;
-    color:$dark-blue;
-  }
-  p{
-    font-size:1rem;
-    font-family:'Qanelas-regular';
-    color:$dark-blue;
-  }
+    li {
+        margin-right: 2rem;
+        user-select: none;
+    }
+}
+@media screen and (max-width:1200px) {
+    .fundators-list {
+        li {
+            margin-right: 0;
+        }
+    }
+}
+@media screen and (max-width:1024px) {
+    .funded-by__container {
+        align-items: center;
+    }
+}
+@media screen and (max-width:768px) {
+    .fundators-list {
+        li img {
+            width: 90%;
+        }
+    }
+}
+@media screen and (max-width:425px) {
+    .funded-by__container {
+        background: $light-gray;
+    }
+
+    .fundators-list {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        li img {
+            width: 100%;
+        }
+    }
+}
+
+.be-updated__container {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    h1 {
+        font-size: 2rem;
+        text-transform: uppercase;
+        color: $dark-blue;
+    }
+
+    p {
+        font-size: 1rem;
+        font-family: 'Qanelas-regular';
+        color: $dark-blue;
+    }
 }

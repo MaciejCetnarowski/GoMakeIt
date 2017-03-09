@@ -1,0 +1,222 @@
+.fits-for-you {
+    display: block;
+    padding-top: 8rem;
+    margin: 0 auto;
+    background: $light-gray;
+
+    .fit-text {
+        max-width: 1920px;
+        width: 70%;
+        margin: 0 auto;
+        padding: 2rem 2.2rem;
+        position: relative;
+
+        h1 {
+            font-size: 2rem;
+            text-transform: uppercase;
+            color: $dark-blue;
+            font-family: 'Qanelas-black';
+            text-align: center;
+        }
+
+        p {
+            font-size: 1.4rem;
+            font-family: 'Qanelas-regular';
+            color: $dark-blue;
+            line-height: 1.6;
+            text-align: center;
+        }
+
+        &:after {
+            position: absolute;
+            content: '';
+            width: 60px;
+            height: 60px;
+            background: $light-gray;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%,50%) rotateX(45deg) rotate(45deg);
+        }
+    }
+}
+
+.fitin-blocks {
+    background: $dark-blue;
+}
+
+.cards-container {
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1920px;
+    padding: 3rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fit-card {
+    width: 270px;
+    min-width: 270px;
+    height: 335px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: stretch;
+    border-radius: $content-radius;
+    overflow: hidden;
+    margin: 2rem 0;
+
+    .card-bg {
+        height: 60%;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .card-text {
+        width: 100%;
+        height: 40%;
+        background: $light-gray;
+        text-align: center;
+        font-size: 1.2rem;
+        font-family: 'Qanelas-regular';
+        color: $dark-blue;
+        padding: 0 1rem;
+        display: flex;
+        align-items: center;
+        position: relative;
+        overflow: hidden;
+
+        .card-bg__segment {
+            position: absolute;
+            width: 90px;
+            height: 90px;
+            top: 0;
+            left: 50%;
+            transform: translate(-48%,-55%) rotateX(55deg) rotate(45deg);
+            border-radius: 10px;
+        }
+    }
+
+    .fit-hex-icon {
+        background: url('../imgs/XPLR/fit-hex-icon.png') 50% 50% no-repeat;
+        background-size: contain;
+        position: absolute;
+        top: 24px;
+        left: 0;
+        right: 0;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            margin-bottom: 1.8rem;
+            width: 70px;
+            height: 70px;
+        }
+
+        h2 {
+            text-transform: uppercase;
+            font-size: 1.4rem;
+            font-family: 'Qanelas-bold';
+            text-align: center;
+        }
+    }
+}
+
+.inv-name {
+    color: $keppel;
+}
+
+.solv-name {
+    color: $fuel-yellow;
+}
+
+.maker-name {
+    color: $eastern-blue;
+}
+
+.expl-name {
+    color: $persian-red;
+}
+
+.lead-name {
+    color: $piper;
+}
+
+.nurt-name {
+    color: $orchid;
+}
+
+.promo-name {
+    color: $medium-red-violet;
+}
+
+.analyzer-name {
+    color: $atlantis;
+}
+
+.sg1 {
+    background: $keppel;
+}
+
+.sg2 {
+    background: $fuel-yellow;
+}
+
+.sg3 {
+    background: $eastern-blue;
+}
+
+.sg4 {
+    background: $persian-red;
+}
+
+.sg5 {
+    background: $piper;
+}
+
+.sg6 {
+    background: $orchid;
+}
+
+.sg7 {
+    background: $medium-red-violet;
+}
+
+.sg8 {
+    background: $atlantis;
+}
+
+
+@media screen and (max-width:1600px){
+  .fits-for-you {
+      .fit-text {
+          width: 85%;
+        }
+        .cards-container {
+            width: 84%;
+          }
+      }
+
+}
+
+@media screen and (max-width:768px){
+  .fits-for-you {
+      .fit-text {
+          width: 95%;
+        }
+        .cards-container {
+            width: 95%;
+            justify-content:space-around;
+          }
+      }
+      // In this resolution i have to add slcker mechanic
+
+}
