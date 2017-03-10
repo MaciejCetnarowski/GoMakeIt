@@ -45,9 +45,8 @@
 }
 
 .cards-container {
-    width: 70%;
     margin: 0 auto;
-    max-width: 1920px;
+  width: calc(1920px - 30%);
     padding: 3rem 0;
     display: flex;
     flex-wrap: wrap;
@@ -67,6 +66,7 @@
     border-radius: $content-radius;
     overflow: hidden;
     margin: 2rem 0;
+    user-select: none;
 
     .card-bg {
         height: 60%;
@@ -93,11 +93,11 @@
 
         .card-bg__segment {
             position: absolute;
-            width: 90px;
-            height: 90px;
+            width: 100px;
+            height: 100px;
             top: 0;
             left: 50%;
-            transform: translate(-48%,-55%) rotateX(55deg) rotate(45deg);
+            transform: translate(-48%,-61%) rotateX(55deg) rotate(45deg);
             border-radius: 10px;
         }
     }
@@ -193,30 +193,65 @@
 .sg8 {
     background: $atlantis;
 }
-
-
-@media screen and (max-width:1600px){
-  .fits-for-you {
-      .fit-text {
-          width: 85%;
+@media screen and (max-width:1600px) {
+    .fits-for-you {
+        .fit-text {
+            width: 85%;
         }
+
         .cards-container {
             width: 84%;
-          }
-      }
-
-}
-
-@media screen and (max-width:768px){
-  .fits-for-you {
-      .fit-text {
-          width: 95%;
         }
-        .cards-container {
+    }
+}
+@media screen and (max-width:768px) {
+    .fits-for-you {
+        .fit-text {
             width: 95%;
-            justify-content:space-around;
-          }
-      }
-      // In this resolution i have to add slcker mechanic
+        }
 
+        .cards-container {
+            width: 100%;
+            cursor: all-scroll;
+
+            .fit-card {
+                width: 270px;
+                min-width: 270px;
+                height: 335px;
+                margin: 2rem;
+                outline: 0;
+            }
+        }
+    }
+}
+@media screen and (max-width:425px) {
+    .fits-for-you {
+        .cards-container {
+            position: relative;
+
+            &:before {
+                position: absolute;
+                bottom: 5%;
+                left: 40%;
+                font-family: 'fontawesome';
+                content: '\f104';
+                font-size: 2rem;
+                color: $yellow;
+            }
+
+            &:after {
+                position: absolute;
+                bottom: 5%;
+                right: 40%;
+                font-family: 'fontawesome';
+                content: '\f105';
+                font-size: 2rem;
+                color: $yellow;
+            }
+
+            .fit-card {
+                margin: 2rem 1rem;
+            }
+        }
+    }
 }
