@@ -1,0 +1,70 @@
+.show-all-jobs {
+    margin: 0 auto;
+    max-width: 1920px;
+    background: $light-gray;
+    margin: 0;
+    padding: 1rem 0;
+    position:relative;
+    &:before {
+        position: absolute;
+        bottom: -30px;
+        left: 50%;
+        transform: translate(-50%,0) rotateX(30deg) rotate(45deg);
+        content: '';
+        background: $light-gray;
+        width: 80px;
+        height: 80px;
+        z-index:1;
+    }
+}
+
+.show-all-jobs__container {
+    width: 70%;
+    margin: 0 auto;
+    position:relative;
+    z-index:2;
+
+    h1 {
+        display: flex;
+        align-items: center;
+        font-family: 'Qanelas-bold';
+        font-size: 2rem;
+        text-transform: uppercase;
+        color: $dark-blue;
+
+        img {
+            width: 90px;
+            height: auto;
+            margin-right: 20px;
+        }
+    }
+}
+@media screen and (max-width:1600px){
+  .show-all-jobs__container {
+      width: 85%;
+    }
+}
+@media screen and (max-width:768px){
+  .show-all-jobs__container {
+      width: 100%;
+      margin: 0 auto;
+
+      h1 {
+              flex-direction:column;
+              text-align:center;
+              img{
+                margin:0 0 10px 0;
+              }
+        }
+      }
+}
+@media screen and (max-width:320px){
+  .show-all-jobs__container {
+      h1 {
+              font-size:1.4rem;
+              img{
+                width:50px;
+              }
+        }
+      }
+}

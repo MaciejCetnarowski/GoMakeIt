@@ -3337,13 +3337,88 @@ figure {
     padding: 18rem 0 4rem;
     background: url("../imgs/Be/banner__bgr--mob.png") no-repeat 50% 25%;
     background-size: 80%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_show-all-jobs\.scss}line{font-family:\000031}}
+.show-all-jobs {
+  margin: 0 auto;
+  max-width: 1920px;
+  background: #F5F0EC;
+  margin: 0;
+  padding: 1rem 0;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_show-all-jobs\.scss}line{font-family:\000038}}
+  .show-all-jobs:before {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    -webkit-transform: translate(-50%, 0) rotateX(30deg) rotate(45deg);
+            transform: translate(-50%, 0) rotateX(30deg) rotate(45deg);
+    content: '';
+    background: #F5F0EC;
+    width: 80px;
+    height: 80px;
+    z-index: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_show-all-jobs\.scss}line{font-family:\0000321}}
+.show-all-jobs__container {
+  width: 70%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_show-all-jobs\.scss}line{font-family:\0000327}}
+  .show-all-jobs__container h1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: 'Qanelas-bold';
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: #173046; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_show-all-jobs\.scss}line{font-family:\0000335}}
+    .show-all-jobs__container h1 img {
+      width: 90px;
+      height: auto;
+      margin-right: 20px; }
+
+@media screen and (max-width: 1600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_show-all-jobs\.scss}line{font-family:\0000343}}
+  .show-all-jobs__container {
+    width: 85%; } }
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_show-all-jobs\.scss}line{font-family:\0000348}}
+  .show-all-jobs__container {
+    width: 100%;
+    margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_show-all-jobs\.scss}line{font-family:\0000352}}
+    .show-all-jobs__container h1 {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_show-all-jobs\.scss}line{font-family:\0000355}}
+      .show-all-jobs__container h1 img {
+        margin: 0 0 10px 0; } }
+@media screen and (max-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_show-all-jobs\.scss}line{font-family:\0000363}}
+  .show-all-jobs__container h1 {
+    font-size: 1.4rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_show-all-jobs\.scss}line{font-family:\0000365}}
+    .show-all-jobs__container h1 img {
+      width: 50px; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\000031}}
 .jobs {
   max-width: 1920px;
   margin: 0 auto;
-  background: #173046; }
+  background: #173046;
+  padding: 3rem 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\000038}}
 .jobs__container {
   width: 75%;
   margin: 0 auto;
@@ -3363,7 +3438,7 @@ figure {
       -ms-flex-pack: justify;
           justify-content: space-between; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000317}}
 .jobs-col {
   width: calc(100%/3);
   display: -webkit-box;
@@ -3380,195 +3455,26 @@ figure {
           justify-content: center;
   padding: 2rem 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000324}}
-.job-card {
-  width: 370px;
-  background: #273E53;
-  border-radius: 5px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000330}}
-.job-card__header {
-  background: #F5F0EC;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000338}}
-  .job-card__header .header__icon {
-    fill: transparent;
-    width: 100px;
-    height: 100px;
-    padding: 0;
-    margin: 0 1rem;
-    -webkit-transform: translate(0, -20px);
-        -ms-transform: translate(0, -20px);
-            transform: translate(0, -20px); }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000347}}
-  .job-card__header h2 {
-    font-family: 'Qanelas-bold';
-    font-size: 1.4rem;
-    color: #173046; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000354}}
-.job-card__content {
-  display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000357}}
-  .job-card__content img {
-    width: 50px;
-    height: auto;
-    margin-right: 1.6rem;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000365}}
-.job-detail__container {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: start;
-  -webkit-justify-content: flex-start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  padding: 2rem 1.6rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000371}}
-  .job-detail__container:nth-child(1) {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.7); }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000376}}
-.job-content__details {
-  display: block; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000379}}
-  .job-content__details p {
-    font-size: 1rem;
-    font-family: 'Qanelas-regular';
-    color: #F5F0EC; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000384}}
-    .job-content__details p span {
-      font-family: 'Qanelas-semibold';
-      font-size: 1.2rem;
-      color: #9EB0C0;
-      margin-right: 10px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000393}}
-.card-footer {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  font-size: 1rem;
-  font-family: 'Qanelas-semibold';
-  text-transform: uppercase;
-  color: #F5F0EC;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  overflow: hidden; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003103}}
-  .card-footer img {
-    width: 30px;
-    height: auto;
-    margin-right: 10px;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003110}}
-  .card-footer .job-spec {
-    width: 50%;
-    background: #2A96B6;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding: 0.4rem 1.6rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003118}}
-  .card-footer .more-info {
-    background: #9EB0C0;
-    width: 50%;
-    padding: 1rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003123}}
-    .card-footer .more-info a {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: center;
-      -webkit-align-items: center;
-          -ms-flex-align: center;
-              align-items: center; }
-
 @media screen and (max-width: 1600px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003130}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000327}}
   .jobs__container {
     width: 90%; } }
 @media screen and (max-width: 1440px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000332}}
   .jobs__container {
     width: 95%; } }
 @media screen and (max-width: 1200px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003140}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000337}}
   .jobs-col {
     width: calc(100%/2); } }
 @media screen and (max-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003145}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000342}}
   .jobs__container {
     width: 100%; } }
 @media screen and (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003150}}
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000347}}
   .jobs-col {
     width: calc(100%/1); } }
-@media screen and (max-width: 425px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003155}}
-  .job-card {
-    width: 330px; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003160}}
-  .job-card__header h2 {
-    font-size: 1.2rem; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003166}}
-  .job-card__content img {
-    width: 40px;
-    margin-right: 1.4rem; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003172}}
-  .job-detail__container {
-    padding: 1.6rem 1.4rem; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003177}}
-  .job-content__details p {
-    font-size: 0.8rem; }
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003180}}
-    .job-content__details p span {
-      font-size: 1rem; }
-
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003187}}
-  .card-footer .job-spec {
-    padding: 0.4rem 1.4rem; } }
-@media screen and (max-width: 345px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003194}}
-  .job-card {
-    width: 300px; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_subscribe-form\.scss}line{font-family:\000031}}
 .subscribe__form {
   border-radius: 5px;
@@ -3633,6 +3539,194 @@ figure {
       float: right;
       border-top-right-radius: 5px;
       border-bottom-right-radius: 5px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_job-card\.scss}line{font-family:\000031}}
+.job-card {
+  width: 370px;
+  background: #273E53;
+  border-radius: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_job-card\.scss}line{font-family:\000037}}
+.job-card__header {
+  background: #F5F0EC;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  padding-right: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_job-card\.scss}line{font-family:\0000316}}
+  .job-card__header .header__icon {
+    fill: transparent;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    margin: 0 1rem;
+    -webkit-transform: translate(0, -20px);
+        -ms-transform: translate(0, -20px);
+            transform: translate(0, -20px); }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_job-card\.scss}line{font-family:\0000325}}
+  .job-card__header h2 {
+    font-family: 'Qanelas-bold';
+    font-size: 1.4rem;
+    color: #173046; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_job-card\.scss}line{font-family:\0000332}}
+.job-card__content {
+  display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_job-card\.scss}line{font-family:\0000335}}
+  .job-card__content img {
+    width: 50px;
+    height: auto;
+    margin-right: 1.6rem;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_job-card\.scss}line{font-family:\0000343}}
+.job-detail__container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 2rem 1.6rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_job-card\.scss}line{font-family:\0000349}}
+  .job-detail__container:nth-child(1) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_job-card\.scss}line{font-family:\0000354}}
+.job-content__details {
+  display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_job-card\.scss}line{font-family:\0000357}}
+  .job-content__details p {
+    font-size: 1rem;
+    font-family: 'Qanelas-regular';
+    color: #F5F0EC; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_job-card\.scss}line{font-family:\0000362}}
+    .job-content__details p span {
+      font-family: 'Qanelas-semibold';
+      font-size: 1.2rem;
+      color: #9EB0C0;
+      margin-right: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_job-card\.scss}line{font-family:\0000371}}
+.card-footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1rem;
+  font-family: 'Qanelas-semibold';
+  text-transform: uppercase;
+  color: #F5F0EC;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_job-card\.scss}line{font-family:\0000381}}
+  .card-footer img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_job-card\.scss}line{font-family:\0000388}}
+  .card-footer .job-spec {
+    width: 50%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0.4rem 1.6rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_job-card\.scss}line{font-family:\0000395}}
+  .card-footer .more-info {
+    background: #9EB0C0;
+    width: 50%;
+    padding: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_job-card\.scss}line{font-family:\00003100}}
+    .card-footer .more-info a {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_job-card\.scss}line{font-family:\00003107}}
+.card-footer .maker-bg {
+  background: #2A96B6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_job-card\.scss}line{font-family:\00003110}}
+.card-footer .solver-bg {
+  background: #F2AB35; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_job-card\.scss}line{font-family:\00003113}}
+.card-footer .nurt-bg {
+  background: #6571D8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_job-card\.scss}line{font-family:\00003116}}
+.card-footer .expl-bg {
+  background: #D13C3F; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_job-card\.scss}line{font-family:\00003119}}
+.card-footer .analyzer-bg {
+  background: #9DB630; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_job-card\.scss}line{font-family:\00003122}}
+.card-footer .promo-bg {
+  background: #B4339A; }
+
+@media screen and (max-width: 425px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_job-card\.scss}line{font-family:\00003134}}
+  .job-card {
+    width: 330px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_job-card\.scss}line{font-family:\00003139}}
+  .job-card__header h2 {
+    font-size: 1.2rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_job-card\.scss}line{font-family:\00003145}}
+  .job-card__content img {
+    width: 40px;
+    margin-right: 1.4rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_job-card\.scss}line{font-family:\00003151}}
+  .job-detail__container {
+    padding: 1.6rem 1.4rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_job-card\.scss}line{font-family:\00003156}}
+  .job-content__details p {
+    font-size: 0.8rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_job-card\.scss}line{font-family:\00003159}}
+    .job-content__details p span {
+      font-size: 1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_job-card\.scss}line{font-family:\00003166}}
+  .card-footer .job-spec {
+    padding: 0.4rem 1.4rem; } }
+@media screen and (max-width: 345px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_job-card\.scss}line{font-family:\00003173}}
+  .job-card {
+    width: 300px; } }
 @media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_mob-button\.scss}line{font-family:\000031}}
 .mob-button {
   font-size: 42px;
