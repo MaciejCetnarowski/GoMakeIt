@@ -67,6 +67,7 @@
  */
 /* Document
    ========================================================================== */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\0000313}}
 html {
   font-family: sans-serif;
   /* 1 */
@@ -74,7 +75,7 @@ html {
   /* 2 */
   -ms-text-size-adjust: 100%;
   /* 3 */
-  -webkit-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
   /* 3 */ }
 
 /* Sections
@@ -82,12 +83,14 @@ html {
 /**
  * Remove the margin in all browsers (opinionated).
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\0000327}}
 body {
   margin: 0; }
 
 /**
  * Add the correct display in IE 9-.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\0000335}}
 article,
 aside,
 footer,
@@ -100,6 +103,7 @@ section {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\0000349}}
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
@@ -110,6 +114,7 @@ h1 {
  * Add the correct display in IE 9-.
  * 1. Add the correct display in IE.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\0000362}}
 figcaption,
 figure,
 main {
@@ -119,6 +124,7 @@ main {
 /**
  * Add the correct margin in IE 8.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\0000372}}
 figure {
   margin: 1em 40px; }
 
@@ -126,22 +132,24 @@ figure {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\0000381}}
 hr {
   box-sizing: content-box;
   /* 1 */
   height: 0;
   /* 1 */
-  overflow: visible;
+  overflow: visible
   /* 2 */ }
 
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\0000392}}
 pre {
   font-family: monospace, monospace;
   /* 1 */
-  font-size: 1em;
+  font-size: 1em
   /* 2 */ }
 
 /* Text-level semantics
@@ -150,16 +158,18 @@ pre {
  * 1. Remove the gray background on active links in IE 10.
  * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003105}}
 a {
   background-color: transparent;
   /* 1 */
-  -webkit-text-decoration-skip: objects;
+  -webkit-text-decoration-skip: objects
   /* 2 */ }
 
 /**
  * Remove the outline on focused links when they are also active or hovered
  * in all browsers (opinionated).
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003115}}
 a:active,
 a:hover {
   outline-width: 0; }
@@ -168,17 +178,19 @@ a:hover {
  * 1. Remove the bottom border in Firefox 39-.
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003125}}
 abbr[title] {
   border-bottom: none;
   /* 1 */
   text-decoration: underline;
   /* 2 */
-  text-decoration: underline dotted;
+  text-decoration: underline dotted
   /* 2 */ }
 
 /**
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003135}}
 b,
 strong {
   font-weight: inherit; }
@@ -186,6 +198,7 @@ strong {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003144}}
 b,
 strong {
   font-weight: bolder; }
@@ -194,23 +207,26 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003154}}
 code,
 kbd,
 samp {
   font-family: monospace, monospace;
   /* 1 */
-  font-size: 1em;
+  font-size: 1em
   /* 2 */ }
 
 /**
  * Add the correct font style in Android 4.3-.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003165}}
 dfn {
   font-style: italic; }
 
 /**
  * Add the correct background and color in IE 9-.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003173}}
 mark {
   background-color: #ff0;
   color: #000; }
@@ -218,6 +234,7 @@ mark {
 /**
  * Add the correct font size in all browsers.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003182}}
 small {
   font-size: 80%; }
 
@@ -225,6 +242,7 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003191}}
 sub,
 sup {
   font-size: 75%;
@@ -232,9 +250,11 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003199}}
 sub {
   bottom: -0.25em; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003203}}
 sup {
   top: -0.5em; }
 
@@ -243,6 +263,7 @@ sup {
 /**
  * Add the correct display in IE 9-.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003214}}
 audio,
 video {
   display: inline-block; }
@@ -250,6 +271,7 @@ video {
 /**
  * Add the correct display in iOS 4-7.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003223}}
 audio:not([controls]) {
   display: none;
   height: 0; }
@@ -257,12 +279,14 @@ audio:not([controls]) {
 /**
  * Remove the border on images inside links in IE 10-.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003232}}
 img {
   border-style: none; }
 
 /**
  * Hide the overflow in IE.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003240}}
 svg:not(:root) {
   overflow: hidden; }
 
@@ -272,6 +296,7 @@ svg:not(:root) {
  * 1. Change the font styles in all browsers (opinionated).
  * 2. Remove the margin in Firefox and Safari.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003252}}
 button,
 input,
 optgroup,
@@ -283,13 +308,14 @@ textarea {
   /* 1 */
   line-height: 1.15;
   /* 1 */
-  margin: 0;
+  margin: 0
   /* 2 */ }
 
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003268}}
 button,
 input {
   /* 1 */
@@ -299,6 +325,7 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003278}}
 button,
 select {
   /* 1 */
@@ -309,16 +336,18 @@ select {
  *    controls in Android 4.
  * 2. Correct the inability to style clickable types in iOS and Safari.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003289}}
 button,
 html [type="button"],
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button;
+  -webkit-appearance: button
   /* 2 */ }
 
 /**
  * Remove the inner border and padding in Firefox.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003300}}
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -329,6 +358,7 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003312}}
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -338,6 +368,7 @@ button:-moz-focusring,
 /**
  * Change the border, margin, and padding in all browsers (opinionated).
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003323}}
 fieldset {
   border: 1px solid #c0c0c0;
   margin: 0 2px;
@@ -349,6 +380,7 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003336}}
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -360,22 +392,24 @@ legend {
   /* 1 */
   padding: 0;
   /* 3 */
-  white-space: normal;
+  white-space: normal
   /* 1 */ }
 
 /**
  * 1. Add the correct display in IE 9-.
  * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003350}}
 progress {
   display: inline-block;
   /* 1 */
-  vertical-align: baseline;
+  vertical-align: baseline
   /* 2 */ }
 
 /**
  * Remove the default vertical scrollbar in IE.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003359}}
 textarea {
   overflow: auto; }
 
@@ -383,16 +417,18 @@ textarea {
  * 1. Add the correct box sizing in IE 10-.
  * 2. Remove the padding in IE 10-.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003368}}
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
   /* 1 */
-  padding: 0;
+  padding: 0
   /* 2 */ }
 
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003378}}
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto; }
@@ -401,15 +437,17 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003388}}
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
-  outline-offset: -2px;
+  outline-offset: -2px
   /* 2 */ }
 
 /**
  * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003397}}
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -418,10 +456,11 @@ textarea {
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003407}}
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
-  font: inherit;
+  font: inherit
   /* 2 */ }
 
 /* Interactive
@@ -430,6 +469,7 @@ textarea {
  * Add the correct display in IE 9-.
  * 1. Add the correct display in Edge, IE, and Firefox.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003420}}
 details,
 menu {
   display: block; }
@@ -437,6 +477,7 @@ menu {
 /*
  * Add the correct display in all browsers.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003429}}
 summary {
   display: list-item; }
 
@@ -445,12 +486,14 @@ summary {
 /**
  * Add the correct display in IE 9-.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003440}}
 canvas {
   display: inline-block; }
 
 /**
  * Add the correct display in IE.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003448}}
 template {
   display: none; }
 
@@ -459,142 +502,253 @@ template {
 /**
  * Add the correct display in IE 10-.
  */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_normalize\.scss}line{font-family:\00003459}}
 [hidden] {
   display: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_reset\.scss}line{font-family:\000031}}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_reset\.scss}line{font-family:\000037}}
 a:active,
 a:link,
 a:visited {
   text-decoration: none;
   color: inherit; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_reset\.scss}line{font-family:\0000314}}
 figure {
   margin: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/generic\/_reset\.scss}line{font-family:\0000318}}
 .popup-menu * {
-  user-select: none; }
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_header\.scss}line{font-family:\000031}}
 .home-header {
   width: 100%;
   background: #173046;
   height: 85px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 11; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_header\.scss}line{font-family:\0000314}}
 .header-container {
   width: 70%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin: auto; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_header\.scss}line{font-family:\0000322}}
 .header-social {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between; }
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_header\.scss}line{font-family:\0000328}}
 .header-social-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   list-style-type: none;
   margin-right: 80px;
-  align-items: center; }
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_header\.scss}line{font-family:\0000335}}
 .header-social-list--subpage {
   margin-right: 200px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_header\.scss}line{font-family:\0000339}}
 .page-icon {
   position: fixed;
   top: 0;
   right: 15%;
   height: 85px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #118489;
   padding: 0 120px 0 10px;
-  user-select: none; }
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
 
 @media screen and (max-width: 1600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_header\.scss}line{font-family:\0000351}}
   .header-container {
     width: 85%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_header\.scss}line{font-family:\0000355}}
   .page-icon {
     right: 10%;
     padding: 0 80px 0 10px; } }
 @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_header\.scss}line{font-family:\0000361}}
   .page-icon {
     position: fixed;
     top: 0;
     right: 10%;
     height: 85px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     background: #118489;
     padding: 0 100px 0 10px; } }
 @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_header\.scss}line{font-family:\0000373}}
   .header-container {
     width: 95%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_header\.scss}line{font-family:\0000377}}
   .header-social-list {
     display: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_header\.scss}line{font-family:\0000381}}
   .header-social-list .social-icon--appear {
-    display: block; } }
+    display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_header\.scss}line{font-family:\0000385}}
+  .page-icon {
+    padding: 0 110px 0 10px;
+    right: 9%; } }
 @media screen and (max-width: 425px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_header\.scss}line{font-family:\0000391}}
   .page-icon {
     position: fixed;
     top: 0;
     right: 10%;
     height: 85px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     background: #118489;
     padding: 0 40px 0 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_header\.scss}line{font-family:\00003101}}
     .page-icon img {
       width: 60%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\000031}}
 .popup-menu.active {
   background: #15A8AF;
   position: fixed;
   left: 0;
   top: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  animation: popupMenu 0.5s forwards;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-animation: popupMenu 0.5s forwards;
+          animation: popupMenu 0.5s forwards;
   opacity: 0;
   z-index: 10;
   height: 0;
   width: 0;
   will-change: transform, opacity; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\0000317}}
 .popup-menu {
   display: none; }
+
+@-webkit-keyframes popupMenu {
+  to {
+    opacity: 0.95;
+    width: 100vw;
+    height: 100vh; } }
 
 @keyframes popupMenu {
   to {
     opacity: 0.95;
     width: 100vw;
     height: 100vh; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\0000328}}
 .popup-menu-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\0000332}}
 .popup-menu-content__main-list {
   list-style-type: none; }
 
 @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\0000336}}
   .popup-menu-content {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column; } }
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\0000342}}
 .popup-menu-content__main-list {
   position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\0000345}}
   .popup-menu-content__main-list:before {
     content: '';
     position: absolute;
@@ -605,40 +759,63 @@ figure {
     right: 0; }
 
 @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\0000356}}
   .popup-menu-content__main-list {
     margin-top: 85px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\0000359}}
     .popup-menu-content__main-list:before {
       display: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\0000365}}
 .popup-menu-content__offer-list {
   list-style-type: none;
   margin-left: 40px; }
 
 @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\0000370}}
   .popup-menu-content__offer-list {
     list-style-type: none;
     margin: 1rem 0 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\0000376}}
 .main-list__item a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 20px;
   margin-right: 40px;
   width: 400px;
-  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s;
   position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\0000385}}
   .main-list__item a img {
     width: 15%;
     margin-right: 20px;
-    transition: all 0.3s; }
+    -webkit-transition: all 0.3s;
+            transition: all 0.3s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\0000391}}
   .main-list__item a:hover {
     background: #118489; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\0000394}}
     .main-list__item a:hover img {
-      transform: translate(10px, 0); }
+      -webkit-transform: translate(10px, 0);
+          -ms-transform: translate(10px, 0);
+              transform: translate(10px, 0); }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\0000399}}
     .main-list__item a:hover .main-list__item_text h1,
     .main-list__item a:hover .main-list__item_text p {
       color: white;
-      transform: translate(10px, 0); }
+      -webkit-transform: translate(10px, 0);
+          -ms-transform: translate(10px, 0);
+              transform: translate(10px, 0); }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\00003106}}
     .main-list__item a:hover:before {
       width: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\00003111}}
   .main-list__item a:before {
     content: '';
     position: absolute;
@@ -647,99 +824,160 @@ figure {
     height: 1px;
     background: #E7E2DE;
     width: 40%;
-    transition: 0.3s width;
+    -webkit-transition: 0.3s width;
+            transition: 0.3s width;
     will-change: width; }
 
 @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\00003124}}
   .main-list__item a {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     padding: 0;
     margin-right: 0;
     width: 400px;
-    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+            transition: all 0.3s;
     position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\00003133}}
     .main-list__item a img {
       width: 15%;
       margin-right: 20px;
-      transition: all 0.3s; }
+      -webkit-transition: all 0.3s;
+              transition: all 0.3s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\00003139}}
     .main-list__item a:hover {
       background: #118489; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\00003142}}
       .main-list__item a:hover img {
-        transform: translate(10px, 0); }
+        -webkit-transform: translate(10px, 0);
+            -ms-transform: translate(10px, 0);
+                transform: translate(10px, 0); }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\00003147}}
       .main-list__item a:hover .main-list__item_text h1,
       .main-list__item a:hover .main-list__item_text p {
         color: white;
-        transform: translate(10px, 0); }
+        -webkit-transform: translate(10px, 0);
+            -ms-transform: translate(10px, 0);
+                transform: translate(10px, 0); }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\00003154}}
       .main-list__item a:hover:before {
         width: 50%; } }
 @media screen and (max-width: 425px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\00003161}}
   .main-list__item a {
     width: 300px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\00003167}}
 .main-list__item_text h1 {
   line-height: 0;
   font-size: 42px;
   text-transform: uppercase;
   color: rgba(255, 255, 255, 0.7);
   font-family: 'Qanelas-bold';
-  transition: all 0.3s; }
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\00003176}}
 .main-list__item_text p {
   font-size: 18px;
   color: rgba(255, 255, 255, 0.7);
   font-family: 'Qanelas-medium';
-  transition: all 0.3s; }
+  -webkit-transition: all 0.3s;
+          transition: all 0.3s; }
 
 @media screen and (max-width: 425px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\00003185}}
   .main-list__item_text h1 {
     font-size: 28px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\00003189}}
   .main-list__item_text p {
     font-size: 14px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\00003195}}
 .offer-list__item {
   font-family: 'Qanelas-medium';
   font-size: 16px;
   margin-bottom: 15px;
-  transition: color 0.3s;
+  -webkit-transition: color 0.3s;
+          transition: color 0.3s;
   color: rgba(255, 255, 255, 0.7); }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\00003202}}
   .offer-list__item:hover {
     color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\00003206}}
   .offer-list__item a {
     text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\00003209}}
     .offer-list__item a span {
       color: #FFFFFF;
       font-size: 22px; }
 
 @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_popup-menu\.scss}line{font-family:\00003216}}
   .offer-list__item {
     margin-bottom: 5px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_home-banner\.scss}line{font-family:\000031}}
 .banner-slider {
   overflow: hidden; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_home-banner\.scss}line{font-family:\000035}}
 .home-banner {
   width: 100%;
   background: url("../imgs/home__banner_background.png") no-repeat 50% 5%;
   background-size: cover;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   outline: 0; }
 
 @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_home-banner\.scss}line{font-family:\0000315}}
   .home-banner {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../imgs/home__banner_background.png") no-repeat 80% 5%;
     background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../imgs/home__banner_background.png") no-repeat 80% 5%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_home-banner\.scss}line{font-family:\0000320}}
 .home-banner__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   padding: 20rem 0 14rem;
   width: 70%;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_home-banner\.scss}line{font-family:\0000329}}
   .home-banner__content h1 {
     font-family: 'Qanelas-Black';
     text-transform: uppercase;
     font-size: 4.8rem;
     color: #15A8AF;
     line-height: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_home-banner\.scss}line{font-family:\0000337}}
   .home-banner__content p {
     font-family: 'Qanelas-regular';
     font-size: 1.4rem;
@@ -747,44 +985,69 @@ figure {
     line-height: 1.4; }
 
 @media screen and (max-width: 1600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_home-banner\.scss}line{font-family:\0000345}}
   .home-banner__content {
     width: 85%; } }
 @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_home-banner\.scss}line{font-family:\0000350}}
   .home-banner__content {
-    align-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
     padding: 16rem 0 10rem;
     width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_home-banner\.scss}line{font-family:\0000356}}
     .home-banner__content h1 {
       line-height: 1; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\000031}}
 .advanced-manufacturing {
   width: 100%;
   background: url("../imgs/wov/wov.png"); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\000037}}
 .advanced-manufacturing__container {
   max-width: 1920px;
   width: 70%;
   margin: 0 auto;
   position: relative;
-  transform: translate(0, -60px);
+  -webkit-transform: translate(0, -60px);
+      -ms-transform: translate(0, -60px);
+          transform: translate(0, -60px);
   z-index: 0;
   overflow: hidden;
   border-radius: 5px; }
 
 @media screen and (max-width: 1600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\0000318}}
   .advanced-manufacturing__container {
     width: 85%; } }
 @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\0000323}}
   .advanced-manufacturing__container {
     width: 95%; } }
 @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\0000328}}
   .advanced-manufacturing__container {
     overflow: visible; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\0000333}}
 .advanced-manufacturing__content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   background: #F5F0EC; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\0000339}}
   .advanced-manufacturing__content h1 {
     background: #15A8AF;
     color: #173046;
@@ -795,12 +1058,14 @@ figure {
     text-transform: uppercase;
     font-size: 2rem;
     font-family: 'Qanelas-black'; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\0000351}}
   .advanced-manufacturing__content h2 {
     padding: 3rem 2.2rem;
     font-size: 1.4rem;
     line-height: 0;
     color: #173046;
     font-family: 'Qanelas-semibold'; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\0000359}}
   .advanced-manufacturing__content p {
     width: 65%;
     padding: 0 2.2rem;
@@ -809,33 +1074,45 @@ figure {
     line-height: 1.6; }
 
 @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\0000368}}
   .advanced-manufacturing__content {
-    align-items: center; }
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\0000371}}
     .advanced-manufacturing__content h1 {
       text-align: center;
       line-height: 1;
       padding: 2.4rem 1.2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\0000377}}
     .advanced-manufacturing__content h2 {
       padding: 2rem 0;
       font-size: 1.4rem;
       line-height: 1;
       text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\0000384}}
     .advanced-manufacturing__content p {
       width: 95%;
       text-align: center; } }
 @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\0000391}}
   .advanced-manufacturing__content {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\0000395}}
     .advanced-manufacturing__content h1 {
       border-top-left-radius: 5px;
       border-top-right-radius: 5px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003102}}
   .advanced-manufacturing__content p {
     width: 100%; } }
 @media screen and (max-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003109}}
   .advanced-manufacturing__content h1 {
     font-size: 8vw; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003115}}
 .advanced-manufacturing__movie {
   border-top-right-radius: 5px;
   position: absolute;
@@ -844,87 +1121,171 @@ figure {
   bottom: 0;
   width: 30rem;
   background: #E7E2DE;
-  transform: skew(-19deg);
-  transform-origin: 0 100%;
+  -webkit-transform: skew(-19deg);
+      -ms-transform: skew(-19deg);
+          transform: skew(-19deg);
+  -webkit-transform-origin: 0 100%;
+      -ms-transform-origin: 0 100%;
+          transform-origin: 0 100%;
   overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-around; }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003131}}
   .advanced-manufacturing__movie h2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-size: 1.4rem;
     color: #173046;
     font-family: 'Qanelas-semibold'; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003138}}
     .advanced-manufacturing__movie h2 img {
-      transform: translate(10%, 45%); }
+      -webkit-transform: translate(10%, 45%);
+          -ms-transform: translate(10%, 45%);
+              transform: translate(10%, 45%); }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003143}}
   .advanced-manufacturing__movie > * {
-    transform: skew(19deg);
+    -webkit-transform: skew(19deg);
+        -ms-transform: skew(19deg);
+            transform: skew(19deg);
     margin-left: 3rem; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003149}}
 .movie-player {
   position: relative;
   margin-left: -65%;
-  user-select: none; }
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003154}}
   .movie-player img {
     width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003158}}
   .movie-player i {
     position: absolute;
     top: 50%;
     right: 30%;
-    transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+        -ms-transform: translate(0, -50%);
+            transform: translate(0, -50%);
     font-size: 6rem;
     color: #FFFFFF; }
 
 @media screen and (max-width: 1440px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003168}}
   .advanced-manufacturing__movie {
     width: 28rem; } }
 @media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003173}}
   .advanced-manufacturing__movie {
     width: 25rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003176}}
     .advanced-manufacturing__movie h2 {
-      transform: translate(-20px, 0) skew(19deg); } }
+      -webkit-transform: translate(-20px, 0) skew(19deg);
+          -ms-transform: translate(-20px, 0) skew(19deg);
+              transform: translate(-20px, 0) skew(19deg); } }
 @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003182}}
   .advanced-manufacturing__movie {
     padding: 2rem 0;
     border-top-right-radius: 0;
     border-bottom-right-radius: 5px;
     border-bottom-left-radius: 5px;
     position: static;
-    align-items: center;
-    transform: skew(0deg);
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transform: skew(0deg);
+        -ms-transform: skew(0deg);
+            transform: skew(0deg);
     width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003192}}
     .advanced-manufacturing__movie h2 {
-      transform: skew(0deg);
+      -webkit-transform: skew(0deg);
+          -ms-transform: skew(0deg);
+              transform: skew(0deg);
       padding-bottom: 2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003197}}
     .advanced-manufacturing__movie > * {
-      transform: skew(0deg);
+      -webkit-transform: skew(0deg);
+          -ms-transform: skew(0deg);
+              transform: skew(0deg);
       margin-left: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003203}}
   .movie-player {
     margin-bottom: 1.8rem;
     width: 80%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003207}}
     .movie-player i {
       top: 50%;
       right: 50%;
-      transform: translate(50%, -50%); } }
+      -webkit-transform: translate(50%, -50%);
+          -ms-transform: translate(50%, -50%);
+              transform: translate(50%, -50%); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003215}}
 .manufacture-variations {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-items: baseline;
-  justify-content: flex-start;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
   padding: 2rem 2.2rem;
   width: 65%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003223}}
 .manufacture-variations__item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-right: 5%;
   padding: 1rem 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003230}}
   .manufacture-variations__item img {
     width: 60%;
-    user-select: none; }
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003235}}
   .manufacture-variations__item figcaption {
     margin-top: 1rem;
     word-wrap: nowrap;
@@ -936,40 +1297,59 @@ figure {
     color: #173046; }
 
 @media screen and (max-width: 1440px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003247}}
   .manufacture-variations__item {
     margin-right: 2%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003250}}
     .manufacture-variations__item img {
       width: 50%; } }
 @media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003256}}
   .manufacture-variations {
     width: 60%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003260}}
   .manufacture-variations__item {
     margin-right: 1%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003263}}
     .manufacture-variations__item img {
       width: 60%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003267}}
     .manufacture-variations__item figcaption {
       font-size: 0.8rem; } }
 @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003273}}
   .manufacture-variations {
-    justify-content: space-around;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
     width: 100%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003278}}
   .manufacture-variations__item {
     margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003281}}
     .manufacture-variations__item img {
       width: 50%; } }
 @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003287}}
   .manufacture-variations {
     margin-top: 1rem;
     width: 100%;
     height: 300px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     background: none;
     padding: 0;
     width: 105%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003298}}
   .manufacture-variations__item {
     background: #FFFFFF;
     margin: 0 3rem;
@@ -978,266 +1358,471 @@ figure {
     border-radius: calc(5px*2);
     border: 1px solid #E7E2DE;
     outline: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003307}}
     .manufacture-variations__item img {
       width: 50%;
       margin: 1rem auto 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003312}}
     .manufacture-variations__item figcaption {
       font-size: 0.8rem; } }
 @media screen and (max-width: 425px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003326}}
   .manufacture-variations {
     margin-top: 0;
     height: 250px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_advanced-manufacturing\.scss}line{font-family:\00003331}}
   .manufacture-variations__item {
     margin: 0 1rem;
     width: 200px;
     height: 200px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\000031}}
 .imgs-container {
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
   overflow: hidden;
-  user-select: none; }
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\0000310}}
   .imgs-container > * {
     width: calc(100%/2); }
 
 @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\0000316}}
   .imgs-container > * {
     width: calc(100%/1); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\0000322}}
 .fig-container {
   position: relative;
   padding: 8rem 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  user-select: none; }
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\0000329}}
   .fig-container > img {
     position: absolute;
     top: 0;
     left: 0;
     height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\0000336}}
   .fig-container:nth-child(even) > img {
     left: -3%; }
 
 @media screen and (max-width: 1600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\0000343}}
   .fig-container:nth-child(even) > img {
     left: -3%; } }
 @media screen and (max-width: 1440px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\0000351}}
   .fig-container:nth-child(even) > img {
     left: -5%; } }
 @media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\0000359}}
   .fig-container:nth-child(even) > img {
     left: -15%; } }
 @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\0000366}}
   .fig-container {
     padding: 4rem 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\0000369}}
     .fig-container > img {
       min-width: 1024px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\0000373}}
     .fig-container:nth-child(even) > img {
       min-width: 125%;
       left: -25%; } }
 @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\0000381}}
   .fig-container > img {
     min-width: 768px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\0000385}}
   .fig-container:nth-child(even) > img {
     min-width: 135%;
     left: -35%; } }
 @media screen and (max-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\0000393}}
   .fig-container > img {
     min-width: 320px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\0000397}}
   .fig-container:nth-child(even) > img {
     min-width: 155%;
     left: -55%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\00003104}}
 .hex-big-icon {
   position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center; }
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\00003110}}
   .hex-big-icon img {
     width: 30rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\00003114}}
   .hex-big-icon figcaption {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -66%);
+    -webkit-transform: translate(-50%, -66%);
+        -ms-transform: translate(-50%, -66%);
+            transform: translate(-50%, -66%);
     text-align: center;
     width: 30rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\00003123}}
     .hex-big-icon figcaption h1 {
       font-family: 'Qanelas-black';
       text-transform: uppercase;
       font-size: 6rem;
       line-height: 0.6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\00003130}}
     .hex-big-icon figcaption h2 {
       font-size: 1.2rem;
       text-transform: uppercase;
       color: #F5F0EC;
       font-family: 'Qanelas-medium'; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\00003140}}
 .icon-be h1 {
   color: #15A8AF; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\00003146}}
 .icon-do h1 {
   color: #E8C423; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\00003152}}
 .icon-xplr h1 {
   color: #B72F6F; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\00003158}}
 .icon-plan h1 {
   color: #173046; }
 
 @media screen and (max-width: 1440px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\00003164}}
   .hex-big-icon img {
     width: 26rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\00003168}}
   .hex-big-icon figcaption {
     width: 26rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\00003171}}
     .hex-big-icon figcaption h1 {
       font-size: 5rem;
       line-height: 0.6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\00003176}}
     .hex-big-icon figcaption h2 {
       font-size: 1rem; } }
 @media screen and (max-width: 425px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\00003184}}
   .hex-big-icon img {
     width: 18rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\00003188}}
   .hex-big-icon figcaption {
     width: 18rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\00003191}}
     .hex-big-icon figcaption h1 {
       font-size: 4rem;
       line-height: 0.4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_imgs-container\.scss}line{font-family:\00003196}}
     .hex-big-icon figcaption h2 {
       font-size: 0.8rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_top-footer\.scss}line{font-family:\000031}}
 .top-footer {
+  background: -webkit-linear-gradient(0deg, #F5F0EC 50%, #E7E2DE 50%);
   background: linear-gradient(90deg, #F5F0EC 50%, #E7E2DE 50%);
   padding: 4rem 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_top-footer\.scss}line{font-family:\000036}}
 .top-footer__container {
   width: 100%;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  justify-content: center; }
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_top-footer\.scss}line{font-family:\0000314}}
   .top-footer__container > * {
     width: calc(100%/2);
     padding: 4rem 2rem 4rem 4rem; }
 
 @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_top-footer\.scss}line{font-family:\0000320}}
   .top-footer {
+    background: -webkit-linear-gradient(#F5F0EC 50%, #E7E2DE 50%);
     background: linear-gradient(#F5F0EC 50%, #E7E2DE 50%);
     padding: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_top-footer\.scss}line{font-family:\0000325}}
   .top-footer__container {
     width: 100%;
     margin: 0 auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap; }
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_top-footer\.scss}line{font-family:\0000334}}
     .top-footer__container > * {
       margin: 0 auto;
       text-align: center;
       width: 100%;
       padding: 2rem;
-      align-items: center; } }
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_top-footer\.scss}line{font-family:\0000344}}
 .funded-by__container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-end;
-  flex-direction: column; }
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_top-footer\.scss}line{font-family:\0000349}}
   .funded-by__container h1 {
     font-size: 2rem;
     text-transform: uppercase;
     color: #173046; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_top-footer\.scss}line{font-family:\0000356}}
 .fundators-list {
   list-style-type: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   padding: 0;
   margin: 0;
-  align-items: baseline;
-  justify-content: flex-end; }
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_top-footer\.scss}line{font-family:\0000364}}
   .fundators-list li {
     margin-right: 2rem;
-    user-select: none; }
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; }
 
 @media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_top-footer\.scss}line{font-family:\0000371}}
   .fundators-list li {
     margin-right: 0; } }
 @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_top-footer\.scss}line{font-family:\0000377}}
   .funded-by__container {
-    align-items: center; } }
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; } }
 @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_top-footer\.scss}line{font-family:\0000383}}
   .fundators-list li img {
     width: 90%; } }
 @media screen and (max-width: 425px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_top-footer\.scss}line{font-family:\0000389}}
   .funded-by__container {
     background: #F5F0EC; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_top-footer\.scss}line{font-family:\0000393}}
   .fundators-list {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; }
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_top-footer\.scss}line{font-family:\0000398}}
     .fundators-list li img {
       width: 100%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_top-footer\.scss}line{font-family:\00003104}}
 .be-updated__container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: flex-start;
-  flex-direction: column; }
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_top-footer\.scss}line{font-family:\00003109}}
   .be-updated__container h1 {
     font-size: 2rem;
     text-transform: uppercase;
     color: #173046; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_top-footer\.scss}line{font-family:\00003115}}
   .be-updated__container p {
     font-size: 1rem;
     font-family: 'Qanelas-regular';
     color: #173046; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_bottom-footer\.scss}line{font-family:\000031}}
 .bottom-footer {
   width: 100%;
   background: #173046;
   padding: 7rem 0; }
 
 @media screen and (max-width: 425px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_bottom-footer\.scss}line{font-family:\000037}}
   .bottom-footer {
     padding: 3rem 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_bottom-footer\.scss}line{font-family:\0000312}}
 .footer-social-icons {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   list-style-type: none;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin: 2rem 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_bottom-footer\.scss}line{font-family:\0000320}}
 .bottom-footer__container {
   text-align: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   font-family: 'Qanelas-regular'; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_bottom-footer\.scss}line{font-family:\0000327}}
   .bottom-footer__container .footer-navlist {
     list-style-type: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     color: #FFFFFF;
     text-transform: uppercase;
     font-family: 'Qanelas-semibold'; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_bottom-footer\.scss}line{font-family:\0000335}}
     .bottom-footer__container .footer-navlist li {
       margin: 0 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_bottom-footer\.scss}line{font-family:\0000340}}
   .bottom-footer__container .copyright {
     color: rgba(255, 255, 255, 0.3);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
     padding-bottom: 1.4rem;
     font-size: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_bottom-footer\.scss}line{font-family:\0000346}}
     .bottom-footer__container .copyright br {
       display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_bottom-footer\.scss}line{font-family:\0000351}}
   .bottom-footer__container .policy-list {
     list-style-type: none;
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.3);
     margin-top: 1.4rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_bottom-footer\.scss}line{font-family:\0000358}}
     .bottom-footer__container .policy-list li {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
       display: flex;
-      align-items: center; }
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_bottom-footer\.scss}line{font-family:\0000362}}
       .bottom-footer__container .policy-list li:nth-child(n+2):before {
         content: '\f111';
         font-family: 'fontawesome';
@@ -1246,12 +1831,20 @@ figure {
         margin: 0 1rem; }
 
 @media screen and (max-width: 425px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_bottom-footer\.scss}line{font-family:\0000374}}
   .bottom-footer__container .footer-navlist {
-    flex-direction: column; }
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_bottom-footer\.scss}line{font-family:\0000377}}
     .bottom-footer__container .footer-navlist li {
       margin: 0.6rem 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_bottom-footer\.scss}line{font-family:\0000383}}
   .bottom-footer__container .copyright br {
     display: block; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_about-us-container\.scss}line{font-family:\000031}}
 .about-us {
   position: relative;
   background: #118489;
@@ -1259,76 +1852,124 @@ figure {
   max-width: 1920px;
   margin: 0 auto; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_about-us-container\.scss}line{font-family:\000039}}
 .about-us-container {
   width: 85%;
   margin-left: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between; }
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_about-us-container\.scss}line{font-family:\0000317}}
 .about-us-content {
   width: 60%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_about-us-container\.scss}line{font-family:\0000320}}
   .about-us-content h1 {
     font-size: 3.4rem;
     color: #E8C423;
     font-family: 'Qanelas-black';
     line-height: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_about-us-container\.scss}line{font-family:\0000327}}
   .about-us-content p {
     font-size: 1.4rem;
     line-height: 1.6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_about-us-container\.scss}line{font-family:\0000332}}
   .about-us-content p:nth-of-type(1) {
     color: #FFFFFF;
     font-family: 'Qanelas-medium';
     margin-bottom: 2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_about-us-container\.scss}line{font-family:\0000338}}
   .about-us-content p:nth-of-type(2) {
     color: rgba(255, 255, 255, 0.7);
     font-family: 'Qanelas-regular'; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_about-us-container\.scss}line{font-family:\0000344}}
 .phone-image {
   margin-top: 2rem;
-  user-select: none; }
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
 
 @media screen and (max-width: 1600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_about-us-container\.scss}line{font-family:\0000349}}
   .about-us-container {
     width: calc(100% - 15%/2); } }
 @media screen and (max-width: 1440px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_about-us-container\.scss}line{font-family:\0000354}}
   .phone-image {
     width: 40%; } }
 @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_about-us-container\.scss}line{font-family:\0000359}}
   .about-us {
     position: relative;
     background: #118489;
     padding: 8rem 0 4rem; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_about-us-container\.scss}line{font-family:\0000365}}
   .about-us-container {
     width: 85%;
     margin: 0 auto;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column-reverse; }
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_about-us-container\.scss}line{font-family:\0000373}}
   .phone-image {
     width: 60%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_about-us-container\.scss}line{font-family:\0000377}}
   .about-us-content {
     width: 100%;
-    transform: translate(0, -2rem);
+    -webkit-transform: translate(0, -2rem);
+        -ms-transform: translate(0, -2rem);
+            transform: translate(0, -2rem);
     text-align: center; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_info-for-parents\.scss}line{font-family:\000031}}
 .info-for-parents {
   width: 100%;
   background: url("../imgs/wov/wov.png"); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_info-for-parents\.scss}line{font-family:\000037}}
 .info-for-parents__container {
   max-width: 1920px;
   width: 70%;
   margin: 0 auto;
   position: relative;
-  transform: translate(0, -60px);
+  -webkit-transform: translate(0, -60px);
+      -ms-transform: translate(0, -60px);
+          transform: translate(0, -60px);
   overflow: hidden;
   border-radius: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_info-for-parents\.scss}line{font-family:\0000316}}
   .info-for-parents__container h1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     background: #15A8AF;
     color: #173046;
     width: 100%;
@@ -1338,15 +1979,18 @@ figure {
     text-transform: uppercase;
     font-size: 2rem;
     font-family: 'Qanelas-black'; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_info-for-parents\.scss}line{font-family:\0000329}}
     .info-for-parents__container h1 img {
       width: 70px;
       margin-right: 30px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_info-for-parents\.scss}line{font-family:\0000336}}
 .info-for-parents__content {
   display: block;
   background: #F5F0EC;
   color: #173046;
   padding: 0 2.2rem 2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_info-for-parents\.scss}line{font-family:\0000342}}
   .info-for-parents__content > p {
     width: 100%;
     padding: 3rem 0;
@@ -1354,28 +1998,43 @@ figure {
     font-family: 'Qanelas-light';
     line-height: 1.6; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_info-for-parents\.scss}line{font-family:\0000351}}
 .passages-variations {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-start;
-  justify-content: space-between; }
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_info-for-parents\.scss}line{font-family:\0000357}}
 .passages-variation__column {
   position: relative;
   width: 43%;
   color: #173046; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_info-for-parents\.scss}line{font-family:\0000362}}
   .passages-variation__column h2 {
     font-family: 'Qanelas-Extrabold';
     font-size: 1.4rem;
     text-transform: uppercase;
     color: #118489;
     margin-bottom: 2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_info-for-parents\.scss}line{font-family:\0000370}}
   .passages-variation__column p {
     font-family: 'Qanelas-light';
     font-size: 1.2rem;
     padding-bottom: 2rem;
     line-height: 1.2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_info-for-parents\.scss}line{font-family:\0000378}}
   .passages-variation__column:nth-of-type(2):before {
     content: '';
+    background: -webkit-radial-gradient(-160px, 230px, #dcd5cf, rgba(255, 255, 255, 0));
     background: radial-gradient(230px at -160px, #dcd5cf, rgba(255, 255, 255, 0));
     position: absolute;
     top: 0;
@@ -1384,15 +2043,18 @@ figure {
     right: 100%;
     border-left: 2px solid #E7E2DE; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_info-for-parents\.scss}line{font-family:\0000391}}
 .passages-variation__list {
   list-style-type: none;
   font-family: 'Qanelas-medium';
   color: #173046;
   font-size: 1.2rem;
   margin-left: 2.4rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_info-for-parents\.scss}line{font-family:\0000398}}
   .passages-variation__list li {
     margin-bottom: 1.4rem;
     position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_info-for-parents\.scss}line{font-family:\00003102}}
     .passages-variation__list li:before {
       content: '';
       position: absolute;
@@ -1402,95 +2064,151 @@ figure {
       height: 30px;
       background: url("../imgs/About_us/tick--yellow.png") no-repeat;
       background-size: cover;
-      transform: translate(0, -30%); }
+      -webkit-transform: translate(0, -30%);
+          -ms-transform: translate(0, -30%);
+              transform: translate(0, -30%); }
 
 @media screen and (max-width: 1600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_info-for-parents\.scss}line{font-family:\00003116}}
   .info-for-parents__container {
     width: 85%; } }
 @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_info-for-parents\.scss}line{font-family:\00003121}}
   .info-for-parents__container {
     width: 95%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_info-for-parents\.scss}line{font-family:\00003125}}
   .passages-variations {
-    flex-direction: column;
-    align-items: center; }
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_info-for-parents\.scss}line{font-family:\00003130}}
   .passages-variation__column {
     width: 80%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_info-for-parents\.scss}line{font-family:\00003133}}
     .passages-variation__column:nth-of-type(1) {
       text-align: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_info-for-parents\.scss}line{font-family:\00003139}}
   .passages-variation__column:nth-of-type(1) {
     display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_info-for-parents\.scss}line{font-family:\00003143}}
   .passages-variation__column:nth-of-type(2) {
     width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_info-for-parents\.scss}line{font-family:\00003146}}
     .passages-variation__column:nth-of-type(2):before {
       display: none; } }
 @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_info-for-parents\.scss}line{font-family:\00003153}}
   .info-for-parents__container {
     overflow: visible; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_info-for-parents\.scss}line{font-family:\00003157}}
   h1 {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_info-for-parents\.scss}line{font-family:\00003162}}
   .info-for-parents__content {
     border-top-left-radius: 5px;
     border-top-right-radius: 5px; } }
 @media screen and (max-width: 425px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_info-for-parents\.scss}line{font-family:\00003169}}
   .info-for-parents__container h1 {
     text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_info-for-parents\.scss}line{font-family:\00003172}}
     .info-for-parents__container h1 img {
       display: none; } }
 @media screen and (max-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_info-for-parents\.scss}line{font-family:\00003180}}
   .info-for-parents__content h1 {
     font-size: 8vw; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_donate-get-involved\.scss}line{font-family:\000031}}
 .donate-get-involved {
   max-width: 1920px;
   margin: 0 auto; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_donate-get-involved\.scss}line{font-family:\000036}}
 .donate__container {
   width: 70%;
   padding: 2rem 2.2rem;
   margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_donate-get-involved\.scss}line{font-family:\0000311}}
   .donate__container h1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-size: 2rem;
     font-family: 'Qanelas-black';
     color: #173046;
     text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_donate-get-involved\.scss}line{font-family:\0000319}}
     .donate__container h1 img {
       margin-right: 1rem;
       width: 60px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_donate-get-involved\.scss}line{font-family:\0000326}}
 .donate__content {
   padding: 1rem 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start; }
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_donate-get-involved\.scss}line{font-family:\0000333}}
 .donate__column {
   width: 45%;
   color: #173046; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_donate-get-involved\.scss}line{font-family:\0000337}}
   .donate__column h2 {
     font-family: 'Qanelas-bold';
     color: #118489;
     font-size: 1.6rem;
     padding: 1rem 0;
     text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_donate-get-involved\.scss}line{font-family:\0000345}}
   .donate__column p {
     font-family: 'Qanelas-light';
     font-size: 1.4rem;
     line-height: 1.6; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_donate-get-involved\.scss}line{font-family:\0000352}}
 .donate__list {
   list-style-type: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-left: 40px;
   padding-top: 2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_donate-get-involved\.scss}line{font-family:\0000360}}
   .donate__list li {
     width: calc(100%/3);
     position: relative;
@@ -1498,6 +2216,7 @@ figure {
     font-size: 1.2rem;
     color: #173046;
     font-family: 'Qanelas-medium'; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_donate-get-involved\.scss}line{font-family:\0000368}}
     .donate__list li:before {
       content: '';
       background: url("../imgs/About_us/tick--blue.png") no-repeat;
@@ -1509,145 +2228,413 @@ figure {
       bottom: 30%; }
 
 @media screen and (max-width: 1600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_donate-get-involved\.scss}line{font-family:\0000381}}
   .donate__container {
     width: 85%;
     margin: 0 auto;
     padding: 2rem 2.2rem; } }
 @media screen and (max-width: 1440px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_donate-get-involved\.scss}line{font-family:\0000389}}
   .donate__list li {
     width: calc(100%/2); } }
 @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_donate-get-involved\.scss}line{font-family:\0000395}}
   .donate__container {
     width: 95%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_donate-get-involved\.scss}line{font-family:\0000399}}
   .donate__content {
-    flex-direction: column; }
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_donate-get-involved\.scss}line{font-family:\00003103}}
   .donate__column {
     width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_donate-get-involved\.scss}line{font-family:\00003106}}
     .donate__column:nth-of-type(1) {
       padding-bottom: 3rem; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_donate-get-involved\.scss}line{font-family:\00003112}}
   .donate__list li {
     width: calc(100%/3); } }
 @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_donate-get-involved\.scss}line{font-family:\00003119}}
   .donate__list li {
     width: calc(100%/2); } }
 @media screen and (max-width: 425px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_donate-get-involved\.scss}line{font-family:\00003126}}
   .donate__list li {
     width: calc(100%/1); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_contact__container\.scss}line{font-family:\000031}}
 .contact__container {
   max-width: 1920px;
+  background: -webkit-linear-gradient(0deg, #118489 50%, #15A8AF 50%);
   background: linear-gradient(90deg, #118489 50%, #15A8AF 50%); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_contact__container\.scss}line{font-family:\000036}}
 .contact__content {
   width: 70%;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-start; }
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_contact__container\.scss}line{font-family:\0000313}}
 .adrr-details,
 .phone-details {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   width: 50%;
   padding: 4rem 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_contact__container\.scss}line{font-family:\0000321}}
   .adrr-details img,
   .phone-details img {
     width: 120px;
     margin-right: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_contact__container\.scss}line{font-family:\0000326}}
   .adrr-details p,
   .phone-details p {
     font-size: 1.6rem;
     font-family: 'Qanelas-medium';
     color: #FFFFFF;
     padding: 0.4rem 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_contact__container\.scss}line{font-family:\0000332}}
     .adrr-details p span,
     .phone-details p span {
       margin-right: 20px;
       color: rgba(255, 255, 255, 0.7); }
 
 @media screen and (max-width: 1600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_contact__container\.scss}line{font-family:\0000339}}
   .contact__content {
     width: 85%; } }
 @media screen and (max-width: 1440px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_contact__container\.scss}line{font-family:\0000344}}
   .contact__content {
     width: 100%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_contact__container\.scss}line{font-family:\0000350}}
   .adrr-details img,
   .phone-details img {
     width: 100px;
     margin-right: 15px; } }
 @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_contact__container\.scss}line{font-family:\0000357}}
   .contact__container {
+    background: -webkit-linear-gradient(#118489 50%, #15A8AF 50%);
     background: linear-gradient(#118489 50%, #15A8AF 50%); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_contact__container\.scss}line{font-family:\0000361}}
   .contact__content {
     width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    align-items: center; }
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_contact__container\.scss}line{font-family:\0000368}}
   .adrr-details,
   .phone-details {
     width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_contact__container\.scss}line{font-family:\0000372}}
     .adrr-details img,
     .phone-details img {
       width: 120px;
       margin-right: 50px; } }
 @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_contact__container\.scss}line{font-family:\0000379}}
   .adrr-details,
   .phone-details {
     width: 100%;
-    flex-direction: column; }
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_contact__container\.scss}line{font-family:\0000384}}
     .adrr-details img,
     .phone-details img {
       width: 120px;
       margin-right: 0;
       margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_contact__container\.scss}line{font-family:\0000390}}
     .adrr-details p,
     .phone-details p {
       text-align: center; } }
 @media screen and (max-width: 375px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_contact__container\.scss}line{font-family:\0000396}}
   .adrr-details,
   .phone-details {
     width: 100%;
-    flex-direction: column; }
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_contact__container\.scss}line{font-family:\00003101}}
     .adrr-details img,
     .phone-details img {
       width: 90px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_contact__container\.scss}line{font-family:\00003105}}
     .adrr-details p,
     .phone-details p {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
       display: flex;
-      flex-direction: column;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
       font-size: 1.4rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_contact__container\.scss}line{font-family:\00003110}}
       .adrr-details p span,
       .phone-details p span {
         margin: 0; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-banner\.scss}line{font-family:\000031}}
+.xplr-banner {
+  background: url("../imgs/XPLR/banner-bkgr.png") no-repeat 50% 0;
+  background-size: cover; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-banner\.scss}line{font-family:\000036}}
+.xplr-banner__container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20rem 0 14rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-banner\.scss}line{font-family:\0000310}}
+  .xplr-banner__container h1 {
+    font-family: 'Qanelas-Black';
+    text-transform: uppercase;
+    font-size: 4.8rem;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5); }
+
+@media screen and (max-width: 1600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-banner\.scss}line{font-family:\0000320}}
+  .xplr-banner__container {
+    width: 85%; } }
+@media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-banner\.scss}line{font-family:\0000325}}
+  .xplr-banner__container {
+    width: 95%;
+    padding: 15rem 0 12rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-banner\.scss}line{font-family:\0000328}}
+    .xplr-banner__container h1 {
+      text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-banner\.scss}line{font-family:\0000330}}
+      .xplr-banner__container h1 br {
+        display: none; } }
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-banner\.scss}line{font-family:\0000338}}
+  .xplr-banner__container {
+    width: 95%;
+    padding: 15rem 0 12rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-banner\.scss}line{font-family:\0000341}}
+    .xplr-banner__container h1 {
+      font-size: 10vw; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-banner\.scss}line{font-family:\0000343}}
+      .xplr-banner__container h1 br {
+        display: none; } }
+@media screen and (max-width: 425px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-banner\.scss}line{font-family:\0000352}}
+  .xplr-banner__container {
+    padding: 9rem 0 12rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-movie\.scss}line{font-family:\000031}}
+.xplr-movie {
+  background: url("../imgs/wov/wov.png");
+  height: 500px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-movie\.scss}line{font-family:\000035}}
+.xplr-movie__container {
+  width: 70%;
+  margin: 0 auto;
+  background: #F5F0EC;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-transform: translate(0, -200px);
+      -ms-transform: translate(0, -200px);
+          transform: translate(0, -200px);
+  padding: 4rem 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-movie\.scss}line{font-family:\0000315}}
+.xplr-movie__miniature {
+  width: 60%;
+  -webkit-transform: translate(-4rem, 0);
+      -ms-transform: translate(-4rem, 0);
+          transform: translate(-4rem, 0);
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-movie\.scss}line{font-family:\0000319}}
+  .xplr-movie__miniature img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-movie\.scss}line{font-family:\0000325}}
+  .xplr-movie__miniature i {
+    color: #F5F0EC;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    font-size: 8rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-movie\.scss}line{font-family:\0000334}}
+.xplr-movie__content {
+  color: #173046;
+  font-size: 1rem;
+  width: 40%;
+  line-height: 1.4;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0 2.2rem 0 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-movie\.scss}line{font-family:\0000343}}
+  .xplr-movie__content h2 {
+    font-family: 'Qanelas-semibold';
+    margin-bottom: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-movie\.scss}line{font-family:\0000347}}
+  .xplr-movie__content p {
+    font-family: 'Qanelas-light';
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1rem; }
+
+@media screen and (max-width: 1600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-movie\.scss}line{font-family:\0000355}}
+  .xplr-movie__container {
+    width: 85%; } }
+@media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-movie\.scss}line{font-family:\0000360}}
+  .xplr-movie {
+    height: auto;
+    margin-bottom: calc(-200px + 4rem); } }
+@media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-movie\.scss}line{font-family:\0000366}}
+  .xplr-movie {
+    height: auto;
+    margin-bottom: calc(-200px + 2rem); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-movie\.scss}line{font-family:\0000370}}
+  .xplr-movie__container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-movie\.scss}line{font-family:\0000374}}
+  .xplr-movie__miniature {
+    width: 100%;
+    -webkit-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+            transform: translate(0, 0); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-movie\.scss}line{font-family:\0000378}}
+  .xplr-movie__content {
+    width: 100%;
+    text-align: center;
+    padding: 2rem 2.2rem;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; } }
+@media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-movie\.scss}line{font-family:\0000387}}
+  .xplr-movie__container {
+    width: 95%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-movie\.scss}line{font-family:\0000390}}
+  .xplr-movie__content {
+    font-size: 1.2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-movie\.scss}line{font-family:\0000393}}
+    .xplr-movie__content p {
+      font-size: 1.4rem; } }
+@media screen and (max-width: 425px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-movie\.scss}line{font-family:\00003100}}
+  .xplr-movie__container {
+    width: 95%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-movie\.scss}line{font-family:\00003103}}
+  .xplr-movie__content {
+    padding: 2rem 1rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\000031}}
 .fits-for-you {
   display: block;
-  padding-top: 8rem;
   margin: 0 auto;
   background: #F5F0EC; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\000036}}
   .fits-for-you .fit-text {
     max-width: 1920px;
     width: 70%;
     margin: 0 auto;
-    padding: 2rem 2.2rem;
+    padding: 3rem 2.2rem;
     position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\0000313}}
     .fits-for-you .fit-text h1 {
       font-size: 2rem;
       text-transform: uppercase;
       color: #173046;
       font-family: 'Qanelas-black';
       text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\0000321}}
     .fits-for-you .fit-text p {
       font-size: 1.4rem;
-      font-family: 'Qanelas-regular';
+      font-family: 'Qanelas-light';
       color: #173046;
       line-height: 1.6;
       text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\0000329}}
     .fits-for-you .fit-text:after {
       position: absolute;
       content: '';
@@ -1656,59 +2643,102 @@ figure {
       background: #F5F0EC;
       bottom: 0;
       left: 50%;
-      transform: translate(-50%, 50%) rotateX(45deg) rotate(45deg); }
+      -webkit-transform: translate(-50%, 50%) rotateX(45deg) rotate(45deg);
+              transform: translate(-50%, 50%) rotateX(45deg) rotate(45deg); }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\0000342}}
 .fitin-blocks {
   background: #173046; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\0000346}}
 .cards-container {
   margin: 0 auto;
   width: calc(1920px - 30%);
   padding: 3rem 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center; }
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\0000356}}
 .fit-card {
   width: 270px;
   min-width: 270px;
   height: 335px;
   position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  justify-content: stretch;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: stretch;
+  -webkit-justify-content: stretch;
+      -ms-flex-pack: stretch;
+          justify-content: stretch;
   border-radius: 5px;
   overflow: hidden;
   margin: 2rem 0;
-  user-select: none; }
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\0000370}}
   .fit-card .card-bg {
     height: 60%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\0000373}}
     .fit-card .card-bg img {
       width: 100%;
       height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\0000379}}
   .fit-card .card-text {
     width: 100%;
     height: 40%;
     background: #F5F0EC;
     text-align: center;
     font-size: 1.2rem;
-    font-family: 'Qanelas-regular';
+    font-family: 'Qanelas-light';
     color: #173046;
     padding: 0 1rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     position: relative;
     overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\0000393}}
     .fit-card .card-text .card-bg__segment {
       position: absolute;
       width: 100px;
       height: 100px;
       top: 0;
       left: 50%;
-      transform: translate(-48%, -61%) rotateX(55deg) rotate(45deg);
+      -webkit-transform: translate(-48%, -61%) rotateX(55deg) rotate(45deg);
+              transform: translate(-48%, -61%) rotateX(55deg) rotate(45deg);
       border-radius: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\00003104}}
   .fit-card .fit-hex-icon {
     background: url("../imgs/XPLR/fit-hex-icon.png") 50% 50% no-repeat;
     background-size: contain;
@@ -1717,79 +2747,115 @@ figure {
     left: 0;
     right: 0;
     height: 60%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; }
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\00003117}}
     .fit-card .fit-hex-icon img {
       margin-bottom: 1.8rem;
       width: 70px;
       height: 70px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\00003123}}
     .fit-card .fit-hex-icon h2 {
       text-transform: uppercase;
       font-size: 1.4rem;
       font-family: 'Qanelas-bold';
       text-align: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\00003132}}
 .inv-name {
   color: #34A092; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\00003136}}
 .solv-name {
   color: #F2AB35; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\00003140}}
 .maker-name {
   color: #2A96B6; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\00003144}}
 .expl-name {
   color: #D13C3F; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\00003148}}
 .lead-name {
   color: #D75623; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\00003152}}
 .nurt-name {
   color: #6571D8; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\00003156}}
 .promo-name {
   color: #B4339A; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\00003160}}
 .analyzer-name {
   color: #9DB630; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\00003164}}
 .sg1 {
   background: #34A092; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\00003168}}
 .sg2 {
   background: #F2AB35; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\00003172}}
 .sg3 {
   background: #2A96B6; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\00003176}}
 .sg4 {
   background: #D13C3F; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\00003180}}
 .sg5 {
   background: #D75623; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\00003184}}
 .sg6 {
   background: #6571D8; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\00003188}}
 .sg7 {
   background: #B4339A; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\00003192}}
 .sg8 {
   background: #9DB630; }
 
 @media screen and (max-width: 1600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\00003197}}
   .fits-for-you .fit-text {
     width: 85%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\00003201}}
   .fits-for-you .cards-container {
     width: 84%; } }
 @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\00003208}}
   .fits-for-you .fit-text {
     width: 95%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\00003212}}
   .fits-for-you .cards-container {
     width: 100%;
     cursor: all-scroll; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\00003216}}
     .fits-for-you .cards-container .fit-card {
       width: 270px;
       min-width: 270px;
@@ -1797,8 +2863,13 @@ figure {
       margin: 2rem;
       outline: 0; } }
 @media screen and (max-width: 425px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\00003228}}
+  .fits-for-you .fit-text {
+    padding: 2rem 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\00003231}}
   .fits-for-you .cards-container {
     position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\00003234}}
     .fits-for-you .cards-container:before {
       position: absolute;
       bottom: 5%;
@@ -1807,6 +2878,7 @@ figure {
       content: '\f104';
       font-size: 2rem;
       color: #E8C423; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\00003244}}
     .fits-for-you .cards-container:after {
       position: absolute;
       bottom: 5%;
@@ -1815,52 +2887,712 @@ figure {
       content: '\f105';
       font-size: 2rem;
       color: #E8C423; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_fits-for-you\.scss}line{font-family:\00003254}}
     .fits-for-you .cards-container .fit-card {
       margin: 2rem 1rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_waiting-for\.scss}line{font-family:\000031}}
 .waiting-for {
   background: #F5F0EC; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_waiting-for\.scss}line{font-family:\000035}}
 .waiting-for__container {
   width: 70%;
   margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-end;
-  justify-content: space-between;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 4rem 0 5rem 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_waiting-for\.scss}line{font-family:\0000314}}
 .waiting-for__text {
   color: #173046; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_waiting-for\.scss}line{font-family:\0000316}}
   .waiting-for__text h1 {
     font-size: 2rem;
     text-transform: uppercase;
     font-family: 'Qanelas-black'; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_waiting-for\.scss}line{font-family:\0000321}}
   .waiting-for__text p {
     font-size: 1.2rem;
     font-family: 'Qanelas-regular'; }
 
 @media screen and (max-width: 1600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_waiting-for\.scss}line{font-family:\0000327}}
   .waiting-for__container {
     width: 85%; } }
 @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_waiting-for\.scss}line{font-family:\0000332}}
   .waiting-for__container {
     text-align: center;
-    flex-direction: column;
-    align-items: center; }
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_waiting-for\.scss}line{font-family:\0000337}}
   .waiting-for__text {
     margin-bottom: 2rem; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-benefits\.scss}line{font-family:\000031}}
+.xplr-benefits {
+  max-width: 1920px;
+  display: block;
+  margin: 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-benefits\.scss}line{font-family:\000037}}
+.xplr-benefits__article {
+  position: relative;
+  overflow: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-benefits\.scss}line{font-family:\0000313}}
+.xplr-benefits__bgr {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-benefits\.scss}line{font-family:\0000321}}
+  .xplr-benefits__bgr .bgr__person--left {
+    margin-left: auto;
+    background: url("../imgs/XPLR/bkgr2.png") no-repeat 10% 0;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-benefits\.scss}line{font-family:\0000332}}
+  .xplr-benefits__bgr .bgr__person--right {
+    margin-left: auto;
+    background: url("../imgs/XPLR/bkgr3.png") no-repeat 0 0;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-benefits\.scss}line{font-family:\0000343}}
+  .xplr-benefits__bgr .bgr__pattern {
+    position: absolute;
+    top: 0;
+    bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-benefits\.scss}line{font-family:\0000349}}
+  .xplr-benefits__bgr .bgr__pattern--yellow {
+    -webkit-transform: skew(30deg);
+        -ms-transform: skew(30deg);
+            transform: skew(30deg);
+    -webkit-transform-origin: 0 100%;
+        -ms-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+    left: 50%;
+    right: -35%;
+    background: #E8C423; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-benefits\.scss}line{font-family:\0000357}}
+  .xplr-benefits__bgr .bgr__pattern--sea {
+    -webkit-transform: skew(30deg);
+        -ms-transform: skew(30deg);
+            transform: skew(30deg);
+    -webkit-transform-origin: 100% 0;
+        -ms-transform-origin: 100% 0;
+            transform-origin: 100% 0;
+    left: -35%;
+    right: 50%;
+    background: #15A8AF; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-benefits\.scss}line{font-family:\0000366}}
+.xplr-article__container {
+  width: 70%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 10rem 0 8rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-benefits\.scss}line{font-family:\0000372}}
+  .xplr-article__container .xplr-article__content {
+    display: block;
+    width: 50%;
+    color: #173046; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-benefits\.scss}line{font-family:\0000377}}
+    .xplr-article__container .xplr-article__content h2 {
+      font-size: 1.6rem;
+      font-family: 'Qanelas-bold';
+      text-transform: uppercase;
+      margin-bottom: 1.6rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-benefits\.scss}line{font-family:\0000384}}
+    .xplr-article__container .xplr-article__content p {
+      font-size: 1.4rem;
+      font-family: 'Qanelas-regular';
+      margin-bottom: 1.6rem;
+      line-height: 1.6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-benefits\.scss}line{font-family:\0000392}}
+  .xplr-article__container .xplr-article__content--right {
+    margin-left: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-benefits\.scss}line{font-family:\0000397}}
+.xplr-article__list {
+  list-style-type: none;
+  font-family: 'Qanelas-semibold';
+  font-size: 1.2rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-benefits\.scss}line{font-family:\00003102}}
+  .xplr-article__list li {
+    position: relative;
+    line-height: 1.6;
+    margin-left: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-benefits\.scss}line{font-family:\00003107}}
+    .xplr-article__list li:before {
+      position: absolute;
+      top: 40%;
+      left: -40px;
+      content: '';
+      background: url("../imgs/XPLR/02.png") no-repeat;
+      background-size: cover;
+      width: 40px;
+      height: 40px;
+      -webkit-transform: translate(0, -50%);
+          -ms-transform: translate(0, -50%);
+              transform: translate(0, -50%); }
+
+@media screen and (max-width: 1600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-benefits\.scss}line{font-family:\00003121}}
+  .xplr-article__container {
+    width: 85%;
+    padding: 8rem 0 6rem; } }
+@media screen and (max-width: 1440px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-benefits\.scss}line{font-family:\00003127}}
+  .xplr-article__container {
+    padding: 6rem 0 4rem; } }
+@media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-benefits\.scss}line{font-family:\00003132}}
+  .xplr-article__container {
+    padding: 4rem 0 2rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-benefits\.scss}line{font-family:\00003137}}
+  .xplr-benefits__bgr .bgr__person--left {
+    background: url("../imgs/XPLR/bkgr2.png") no-repeat 30% 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-benefits\.scss}line{font-family:\00003141}}
+  .xplr-benefits__bgr .bgr__person--right {
+    background: url("../imgs/XPLR/bkgr3.png") no-repeat 40% 0; } }
+@media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-benefits\.scss}line{font-family:\00003147}}
+  .xplr-benefits__article {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-benefits\.scss}line{font-family:\00003152}}
+  .xplr-benefits__bgr {
+    position: relative;
+    z-index: 2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-benefits\.scss}line{font-family:\00003156}}
+    .xplr-benefits__bgr .bgr__person--left {
+      background: url("../imgs/XPLR/bkgr2.png") no-repeat 0 0;
+      background-size: cover;
+      height: 400px;
+      width: 100%;
+      position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-benefits\.scss}line{font-family:\00003164}}
+    .xplr-benefits__bgr .bgr__person--right {
+      background: url("../imgs/XPLR/bkgr3.png") no-repeat 60% 10%;
+      background-size: cover;
+      height: 400px;
+      width: 100%;
+      position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-benefits\.scss}line{font-family:\00003172}}
+    .xplr-benefits__bgr .bgr__pattern {
+      display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-benefits\.scss}line{font-family:\00003178}}
+  .xplr-article__container .xplr-article__content {
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-benefits\.scss}line{font-family:\00003183}}
+  .bgr-yellow {
+    background: #E8C423; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_xplr-benefits\.scss}line{font-family:\00003187}}
+  .bgr-sea {
+    background: #15A8AF; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_instagram-gallery\.scss}line{font-family:\000031}}
+.instagram-gallery__container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 4rem 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_instagram-gallery\.scss}line{font-family:\000037}}
+.instagram-gallery__header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_instagram-gallery\.scss}line{font-family:\0000312}}
+  .instagram-gallery__header h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    font-family: 'Qanelas-black';
+    color: #173046; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_instagram-gallery\.scss}line{font-family:\0000321}}
+    .instagram-gallery__header h1 i {
+      font-size: 4rem;
+      margin-right: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_instagram-gallery\.scss}line{font-family:\0000327}}
+  .instagram-gallery__header p {
+    text-transform: uppercase;
+    font-family: 'Qanelas-semibold';
+    color: #ADA7A3;
+    font-size: 1.2rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_instagram-gallery\.scss}line{font-family:\0000335}}
+.instagram-photos {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  width: calc(100% + 1rem);
+  margin-left: -0.5rem;
+  padding: 2rem 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_instagram-gallery\.scss}line{font-family:\0000344}}
+  .instagram-photos .instagram-photo {
+    width: calc(100%/5 - 1rem);
+    margin: 0.5rem;
+    position: relative;
+    -webkit-filter: grayscale(70%);
+            filter: grayscale(70%);
+    -webkit-transition: -webkit-filter 0.4s, filter 0.4s;
+            transition: filter 0.4s;
+    cursor: pointer;
+    will-change: filter; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_instagram-gallery\.scss}line{font-family:\0000354}}
+    .instagram-photos .instagram-photo:hover {
+      -webkit-filter: grayscale(0%);
+              filter: grayscale(0%); }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_instagram-gallery\.scss}line{font-family:\0000357}}
+      .instagram-photos .instagram-photo:hover .inst__plus {
+        opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_instagram-gallery\.scss}line{font-family:\0000362}}
+    .instagram-photos .instagram-photo img {
+      width: 100%;
+      height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_instagram-gallery\.scss}line{font-family:\0000367}}
+    .instagram-photos .instagram-photo .inst__plus {
+      width: 80px;
+      height: 80px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+          -ms-transform: translate(-50%, -50%);
+              transform: translate(-50%, -50%);
+      opacity: 0;
+      -webkit-transition: opacity 0.8s;
+              transition: opacity 0.8s;
+      will-change: opacity; }
+
+@media screen and (max-width: 1600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_instagram-gallery\.scss}line{font-family:\0000381}}
+  .instagram-gallery__container {
+    width: 85%;
+    margin: 0 auto;
+    padding: 4rem 0; } }
+@media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_instagram-gallery\.scss}line{font-family:\0000388}}
+  .instagram-gallery__container {
+    padding: 1rem 0;
+    width: 95%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_instagram-gallery\.scss}line{font-family:\0000394}}
+  .instagram-gallery__header p {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_instagram-gallery\.scss}line{font-family:\0000399}}
+  .instagram-photos {
+    padding: 1rem 0; } }
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_instagram-gallery\.scss}line{font-family:\00003104}}
+  .instagram-gallery__header {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_instagram-gallery\.scss}line{font-family:\00003107}}
+    .instagram-gallery__header h1 {
+      text-align: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_instagram-gallery\.scss}line{font-family:\00003111}}
+      .instagram-gallery__header h1 i {
+        margin: 0 0 1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_instagram-gallery\.scss}line{font-family:\00003118}}
+  .instagram-photos .instagram-photo {
+    width: calc(100%/2 - 1rem); } }
+@media screen and (max-width: 320px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_instagram-gallery\.scss}line{font-family:\00003125}}
+  .instagram-photos .instagram-photo {
+    width: calc(100%/1 - 1rem); } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_be-banner\.scss}line{font-family:\000031}}
+.be-banner {
+  background: #006C77;
+  max-width: 1920px;
+  margin: 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_be-banner\.scss}line{font-family:\000037}}
+.banner__container {
+  width: 70%;
+  margin: 0 auto;
+  padding: 10rem 0 8rem;
+  background: url("../imgs/Be/banner__bgr.png") no-repeat 0 70%/contain; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_be-banner\.scss}line{font-family:\0000313}}
+  .banner__container h1 {
+    font-size: 6rem;
+    text-transform: uppercase;
+    font-family: 'Qanelas-extrabold';
+    color: #FFFFFF;
+    margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_be-banner\.scss}line{font-family:\0000321}}
+  .banner__container h2 {
+    font-family: 'Qanelas-bold';
+    color: #E8C423;
+    font-size: 1.6rem;
+    margin-bottom: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_be-banner\.scss}line{font-family:\0000328}}
+  .banner__container p {
+    font-family: 'Qanelas-light';
+    font-size: 1.4rem;
+    width: 50%;
+    color: #15A8AF; }
+
+@media screen and (max-width: 1600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_be-banner\.scss}line{font-family:\0000336}}
+  .banner__container {
+    width: 85%; } }
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_be-banner\.scss}line{font-family:\0000341}}
+  .banner__container {
+    width: 95%;
+    padding: 22rem 0 4rem;
+    background: url("../imgs/Be/banner__bgr--mob.png") no-repeat 50% 25%;
+    background-size: 70%;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_be-banner\.scss}line{font-family:\0000348}}
+    .banner__container p {
+      width: 100%; } }
+@media screen and (max-width: 375px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_be-banner\.scss}line{font-family:\0000354}}
+  .banner__container {
+    padding: 18rem 0 4rem;
+    background: url("../imgs/Be/banner__bgr--mob.png") no-repeat 50% 25%;
+    background-size: 80%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\000031}}
+.jobs {
+  max-width: 1920px;
+  margin: 0 auto;
+  background: #173046; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\000037}}
+.jobs__container {
+  width: 75%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000316}}
+.jobs-col {
+  width: calc(100%/3);
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 2rem 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000324}}
+.job-card {
+  width: 370px;
+  background: #273E53;
+  border-radius: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000330}}
+.job-card__header {
+  background: #F5F0EC;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000338}}
+  .job-card__header .header__icon {
+    fill: transparent;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    margin: 0 1rem;
+    -webkit-transform: translate(0, -20px);
+        -ms-transform: translate(0, -20px);
+            transform: translate(0, -20px); }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000347}}
+  .job-card__header h2 {
+    font-family: 'Qanelas-bold';
+    font-size: 1.4rem;
+    color: #173046; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000354}}
+.job-card__content {
+  display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000357}}
+  .job-card__content img {
+    width: 50px;
+    height: auto;
+    margin-right: 1.6rem;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000365}}
+.job-detail__container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: start;
+  -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding: 2rem 1.6rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000371}}
+  .job-detail__container:nth-child(1) {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.7); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000376}}
+.job-content__details {
+  display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000379}}
+  .job-content__details p {
+    font-size: 1rem;
+    font-family: 'Qanelas-regular';
+    color: #F5F0EC; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000384}}
+    .job-content__details p span {
+      font-family: 'Qanelas-semibold';
+      font-size: 1.2rem;
+      color: #9EB0C0;
+      margin-right: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\0000393}}
+.card-footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1rem;
+  font-family: 'Qanelas-semibold';
+  text-transform: uppercase;
+  color: #F5F0EC;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003103}}
+  .card-footer img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003110}}
+  .card-footer .job-spec {
+    width: 50%;
+    background: #2A96B6;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0.4rem 1.6rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003118}}
+  .card-footer .more-info {
+    background: #9EB0C0;
+    width: 50%;
+    padding: 1rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003123}}
+    .card-footer .more-info a {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center; }
+
+@media screen and (max-width: 1600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003130}}
+  .jobs__container {
+    width: 90%; } }
+@media screen and (max-width: 1440px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003135}}
+  .jobs__container {
+    width: 95%; } }
+@media screen and (max-width: 1200px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003140}}
+  .jobs-col {
+    width: calc(100%/2); } }
+@media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003145}}
+  .jobs__container {
+    width: 100%; } }
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003150}}
+  .jobs-col {
+    width: calc(100%/1); } }
+@media screen and (max-width: 425px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003155}}
+  .job-card {
+    width: 330px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003160}}
+  .job-card__header h2 {
+    font-size: 1.2rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003166}}
+  .job-card__content img {
+    width: 40px;
+    margin-right: 1.4rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003172}}
+  .job-detail__container {
+    padding: 1.6rem 1.4rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003177}}
+  .job-content__details p {
+    font-size: 0.8rem; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003180}}
+    .job-content__details p span {
+      font-size: 1rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003187}}
+  .card-footer .job-spec {
+    padding: 0.4rem 1.4rem; } }
+@media screen and (max-width: 345px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/objects\/_jobs\.scss}line{font-family:\00003194}}
+  .job-card {
+    width: 300px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_subscribe-form\.scss}line{font-family:\000031}}
 .subscribe__form {
   border-radius: 5px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #FFFFFF;
   width: 500px;
   margin: 1rem 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_subscribe-form\.scss}line{font-family:\0000310}}
   .subscribe__form label {
     color: #E7E2DE;
     padding: 0 1rem;
     font-size: 1.4rem;
-    user-select: none; }
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_subscribe-form\.scss}line{font-family:\0000316}}
   .subscribe__form input {
     outline: 0;
     background: #FFFFFF;
@@ -1870,17 +3602,21 @@ figure {
     font-size: 1rem;
     color: #173046;
     font-family: 'Qanelas-regular'; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_subscribe-form\.scss}line{font-family:\0000326}}
   .subscribe__form button {
     margin: 0; }
 
 @media screen and (max-width: 1440px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_subscribe-form\.scss}line{font-family:\0000332}}
   .subscribe__form {
     width: 400px; } }
 @media screen and (max-width: 425px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_subscribe-form\.scss}line{font-family:\0000338}}
   .subscribe__form {
     display: block;
     width: 100%;
     background: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_subscribe-form\.scss}line{font-family:\0000348}}
     .subscribe__form label {
       padding: 0.765rem;
       background: #FFFFFF;
@@ -1889,6 +3625,7 @@ figure {
       border-right: 1px solid #E7E2DE;
       border-top-left-radius: 5px;
       border-bottom-left-radius: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/elements\/_subscribe-form\.scss}line{font-family:\0000359}}
     .subscribe__form input {
       width: calc(100% - 50px);
       margin-bottom: 1rem;
@@ -1896,6 +3633,7 @@ figure {
       float: right;
       border-top-right-radius: 5px;
       border-bottom-right-radius: 5px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_mob-button\.scss}line{font-family:\000031}}
 .mob-button {
   font-size: 42px;
   color: #173046;
@@ -1904,49 +3642,84 @@ figure {
   right: 0;
   top: 0;
   padding: 0 16% 0 15px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   line-height: 0;
   height: 85px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_mob-button\.scss}line{font-family:\0000313}}
   .mob-button i {
     cursor: pointer; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_mob-button\.scss}line{font-family:\0000318}}
 .button-icon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   cursor: pointer;
   width: 35px;
   height: 35px; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_mob-button\.scss}line{font-family:\0000326}}
 .button-icon span {
   width: 100%;
   height: 5px;
   background: #173046;
   border-radius: 15px;
-  transition: 0.3s;
+  -webkit-transition: 0.3s;
+          transition: 0.3s
   /*   box-shadow:1px 2px 1px rgba(0,0,0,0.2) */ }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_mob-button\.scss}line{font-family:\0000336}}
 .button-icon {
   position: relative; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_mob-button\.scss}line{font-family:\0000340}}
 .button-icon.active span:nth-child(2) {
   opacity: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_mob-button\.scss}line{font-family:\0000343}}
 .button-icon.active span:nth-child(1) {
-  transform: translateY(2px) rotate(45deg);
-  transform-origin: 0% 100%; }
+  -webkit-transform: translateY(2px) rotate(45deg);
+      -ms-transform: translateY(2px) rotate(45deg);
+          transform: translateY(2px) rotate(45deg);
+  -webkit-transform-origin: 0% 100%;
+      -ms-transform-origin: 0% 100%;
+          transform-origin: 0% 100%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_mob-button\.scss}line{font-family:\0000347}}
 .button-icon.active span:nth-child(3) {
-  transform: translateY(-2px) rotate(-45deg);
-  transform-origin: 0% 0%; }
+  -webkit-transform: translateY(-2px) rotate(-45deg);
+      -ms-transform: translateY(-2px) rotate(-45deg);
+          transform: translateY(-2px) rotate(-45deg);
+  -webkit-transform-origin: 0% 0%;
+      -ms-transform-origin: 0% 0%;
+          transform-origin: 0% 0%; }
 
 @media screen and (max-width: 1600px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_mob-button\.scss}line{font-family:\0000355}}
   .mob-button {
     padding: 0 9% 0 15px; } }
 @media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_mob-button\.scss}line{font-family:\0000360}}
   .mob-button {
     padding: 0 20px 0 20px; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_mob-button\.scss}line{font-family:\0000371}}
 .mob-button--arrow:before {
   content: '';
   position: absolute;
@@ -1958,13 +3731,19 @@ figure {
   border-left: 20px solid transparent;
   border-right: 20px solid #15A8AF; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_social-icon\.scss}line{font-family:\000031}}
 .social-icon {
   margin: 0 5px;
   width: 40px;
   position: relative;
-  user-select: none; }
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_social-icon\.scss}line{font-family:\000036}}
   .social-icon img {
     width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_social-icon\.scss}line{font-family:\000039}}
   .social-icon i {
     position: absolute;
     top: 45%;
@@ -1973,9 +3752,11 @@ figure {
     line-height: 0;
     color: #173046; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_social-icon\.scss}line{font-family:\0000320}}
 .social-icon--centered i {
   left: 35%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_buttons\.scss}line{font-family:\000032}}
 .primary-button {
   background: #E8C423;
   text-transform: uppercase;
@@ -1984,21 +3765,29 @@ figure {
   color: #173046;
   padding: 1rem;
   border-radius: 2px;
-  user-select: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
   border: 0;
   outline: 0;
   cursor: pointer;
   margin: 2rem 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_buttons\.scss}line{font-family:\0000315}}
   .primary-button i {
     font-weight: bold;
     margin-left: 1rem;
     font-size: 1.2rem; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_buttons\.scss}line{font-family:\0000321}}
 .primary-button--cut {
   position: relative;
   padding-left: 3rem;
-  transform: translate(3rem, -1rem) skew(19deg);
+  -webkit-transform: translate(3rem, -1rem) skew(19deg);
+      -ms-transform: translate(3rem, -1rem) skew(19deg);
+          transform: translate(3rem, -1rem) skew(19deg);
   margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_buttons\.scss}line{font-family:\0000327}}
   .primary-button--cut:before {
     content: '';
     position: absolute;
@@ -2008,26 +3797,64 @@ figure {
     width: 40px;
     border-radius: 2px;
     background: #E8C423;
-    transform: skew(-19deg);
-    transform-origin: 0 0; }
+    -webkit-transform: skew(-19deg);
+        -ms-transform: skew(-19deg);
+            transform: skew(-19deg);
+    -webkit-transform-origin: 0 0;
+        -ms-transform-origin: 0 0;
+            transform-origin: 0 0; }
 
 @media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_buttons\.scss}line{font-family:\0000342}}
   .primary-button--cut {
     padding: 1rem;
-    transform: none; }
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_buttons\.scss}line{font-family:\0000345}}
     .primary-button--cut:before {
       display: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_buttons\.scss}line{font-family:\0000352}}
 .primary-button--stretch {
   width: 100%; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_buttons\.scss}line{font-family:\0000356}}
 .primary-button--nomargin {
   margin: 0;
   padding: 1rem 2rem; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_buttons\.scss}line{font-family:\0000360}}
+.primary-button--cloudy {
+  background: #E7E2DE;
+  color: #ADA7A3; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_buttons\.scss}line{font-family:\0000364}}
+.primary-button--whitebg {
+  background: #FFFFFF;
+  padding: 1.2rem 3rem; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_buttons\.scss}line{font-family:\0000369}}
+.primary-button--sea {
+  color: #15A8AF; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_buttons\.scss}line{font-family:\0000373}}
+.primary-button--yellow {
+  color: #E8C423; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_buttons\.scss}line{font-family:\0000376}}
+.primary-button--shadysea {
+  box-shadow: 1px 1.5px 1px rgba(18, 146, 152, 0.05), 2px 2.5px 1px rgba(18, 146, 152, 0.05), 3px 3.5px 1px rgba(18, 146, 152, 0.05), 4px 4.5px 1px rgba(18, 146, 152, 0.05), 5px 5.5px 1px rgba(18, 146, 152, 0.05), 6px 6.5px 1px rgba(18, 146, 152, 0.05), 7px 7.5px 1px rgba(18, 146, 152, 0.05), 8px 8.5px 1px rgba(18, 146, 152, 0.05), 9px 9.5px 1px rgba(18, 146, 152, 0.05), 10px 10.5px 1px rgba(18, 146, 152, 0.05), 11px 11.5px 1px rgba(18, 146, 152, 0.05), 11px 12.5px 1px rgba(18, 146, 152, 0.05), 13px 13.5px 1px rgba(18, 146, 152, 0.05), 14px 14.5px 1px rgba(18, 146, 152, 0.05), 15px 15.5px 1px rgba(18, 146, 152, 0.05), 16px 16.5px 1px rgba(18, 146, 152, 0.05), 17px 17.5px 1px rgba(18, 146, 152, 0.05), 18px 18.5px 1px rgba(18, 146, 152, 0.05), 19px 19.5px 1px rgba(18, 146, 152, 0.05), 20px 20.5px 1px rgba(18, 146, 152, 0.05), 21px 22.5px 1px rgba(18, 146, 152, 0.05), 23px 23.5px 1px rgba(18, 146, 152, 0.05), 24px 24.5px 1px rgba(18, 146, 152, 0.05), 25px 25.5px 1px rgba(18, 146, 152, 0.05), 26px 26.5px 1px rgba(18, 146, 152, 0.05), 27px 27.5px 1px rgba(18, 146, 152, 0.05), 28px 28.5px 1px rgba(18, 146, 152, 0.05), 29px 29.5px 1px rgba(18, 146, 152, 0.05), 30px 30.5px 1px rgba(18, 146, 152, 0.05), 31px 31.5px 1px rgba(18, 146, 152, 0.05), 31px 32.5px 1px rgba(18, 146, 152, 0.05); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_buttons\.scss}line{font-family:\00003113}}
+.primary-button--shadyyellow {
+  box-shadow: 1px 1.5px 1px rgba(219, 183, 23, 0.05), 2px 2.5px 1px rgba(219, 183, 23, 0.05), 3px 3.5px 1px rgba(219, 183, 23, 0.05), 4px 4.5px 1px rgba(219, 183, 23, 0.05), 5px 5.5px 1px rgba(219, 183, 23, 0.05), 6px 6.5px 1px rgba(219, 183, 23, 0.05), 7px 7.5px 1px rgba(219, 183, 23, 0.05), 8px 8.5px 1px rgba(219, 183, 23, 0.05), 9px 9.5px 1px rgba(219, 183, 23, 0.05), 10px 10.5px 1px rgba(219, 183, 23, 0.05), 11px 11.5px 1px rgba(219, 183, 23, 0.05), 11px 12.5px 1px rgba(219, 183, 23, 0.05), 13px 13.5px 1px rgba(219, 183, 23, 0.05), 14px 14.5px 1px rgba(219, 183, 23, 0.05), 15px 15.5px 1px rgba(219, 183, 23, 0.05), 16px 16.5px 1px rgba(219, 183, 23, 0.05), 17px 17.5px 1px rgba(219, 183, 23, 0.05), 18px 18.5px 1px rgba(219, 183, 23, 0.05), 19px 19.5px 1px rgba(219, 183, 23, 0.05), 20px 20.5px 1px rgba(219, 183, 23, 0.05), 21px 22.5px 1px rgba(219, 183, 23, 0.05), 23px 23.5px 1px rgba(219, 183, 23, 0.05), 24px 24.5px 1px rgba(219, 183, 23, 0.05), 25px 25.5px 1px rgba(219, 183, 23, 0.05), 26px 26.5px 1px rgba(219, 183, 23, 0.05), 27px 27.5px 1px rgba(219, 183, 23, 0.05), 28px 28.5px 1px rgba(219, 183, 23, 0.05), 29px 29.5px 1px rgba(219, 183, 23, 0.05), 30px 30.5px 1px rgba(219, 183, 23, 0.05), 31px 31.5px 1px rgba(219, 183, 23, 0.05), 31px 32.5px 1px rgba(219, 183, 23, 0.05); }
+
 /* Dots */
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_banner-slider__dots\.scss}line{font-family:\000032}}
 .slick-dotted.slick-slider {
   margin: 0; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_banner-slider__dots\.scss}line{font-family:\000038}}
 .slick-dots {
   position: absolute;
   bottom: 80px;
@@ -2038,6 +3865,7 @@ figure {
   list-style: none;
   text-align: center; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_banner-slider__dots\.scss}line{font-family:\0000319}}
 .slick-dots li {
   position: relative;
   display: inline-block;
@@ -2047,6 +3875,7 @@ figure {
   padding: 0;
   cursor: pointer; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_banner-slider__dots\.scss}line{font-family:\0000330}}
 .slick-dots li button {
   font-size: 0;
   line-height: 0;
@@ -2060,14 +3889,17 @@ figure {
   outline: none;
   background: transparent; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_banner-slider__dots\.scss}line{font-family:\0000348}}
 .slick-dots li button:hover,
 .slick-dots li button:focus {
   outline: none; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_banner-slider__dots\.scss}line{font-family:\0000353}}
 .slick-dots li button:hover:before,
 .slick-dots li button:focus:before {
   opacity: 1; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_banner-slider__dots\.scss}line{font-family:\0000358}}
 .slick-dots li button:before {
   font-family: 'fontawesome';
   font-size: 18px;
@@ -2084,6 +3916,7 @@ figure {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/E\:\/GoMakeIt\/GoMakeIt_project\/sass\/components\/_banner-slider__dots\.scss}line{font-family:\0000380}}
 .slick-dots li.slick-active button:before {
   opacity: .75;
   color: #E8C423; }

@@ -1,0 +1,55 @@
+.xplr-banner{
+  background:url('../imgs/XPLR/banner-bkgr.png') no-repeat 50% 0;
+  background-size:cover;
+
+}
+.xplr-banner__container{
+  width:70%;
+  margin:0 auto;
+  padding: 20rem 0 14rem;
+  h1{
+    font-family: 'Qanelas-Black';
+    text-transform: uppercase;
+    font-size: 4.8rem;
+    color: $white;
+    text-shadow:1px 1px 1px rgba(black,0.5);
+
+  }
+}
+@media screen and (max-width:1600px){
+  .xplr-banner__container{
+    width:85%;
+  }
+}
+@media screen and (max-width:1024px){
+  .xplr-banner__container{
+    width:95%;
+    padding: 15rem 0 12rem;
+    h1{
+      text-align:center;
+      br{
+        display:none;
+      }
+
+    }
+  }
+}
+@media screen and (max-width:768px){
+  .xplr-banner__container{
+    width:95%;
+    padding: 15rem 0 12rem;
+    h1{
+      font-size:10vw;
+      br{
+        display:none;
+      }
+
+    }
+  }
+}
+
+@media screen and (max-width:425px){
+  .xplr-banner__container{
+    padding:9rem 0 12rem;
+  }
+}

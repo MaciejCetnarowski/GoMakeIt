@@ -1,0 +1,59 @@
+.be-banner {
+    background: $pine-green;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.banner__container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 10rem 0 8rem;
+    background: url('../imgs/Be/banner__bgr.png') no-repeat 0 70%/contain;
+
+    h1 {
+        font-size: 6rem;
+        text-transform: uppercase;
+        font-family: 'Qanelas-extrabold';
+        color: $white;
+        margin: 0;
+    }
+
+    h2 {
+        font-family: 'Qanelas-bold';
+        color: $yellow;
+        font-size: 1.6rem;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-family: 'Qanelas-light';
+        font-size: 1.4rem;
+        width: 50%;
+        color: $sea;
+    }
+}
+@media screen and (max-width:1600px) {
+    .banner__container {
+        width: 85%;
+    }
+}
+@media screen and (max-width:768px) {
+    .banner__container {
+        width: 95%;
+        padding: 22rem 0 4rem;
+        background: url('../imgs/Be/banner__bgr--mob.png') no-repeat 50% 25%;
+        background-size: 70%;
+        text-align: center;
+
+        p {
+            width: 100%;
+        }
+    }
+}
+@media screen and (max-width:375px) {
+    .banner__container {
+        padding: 18rem 0 4rem;
+        background: url('../imgs/Be/banner__bgr--mob.png') no-repeat 50% 25%;
+        background-size: 80%;
+    }
+}

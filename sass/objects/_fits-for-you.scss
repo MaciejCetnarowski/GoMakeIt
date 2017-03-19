@@ -1,6 +1,5 @@
 .fits-for-you {
     display: block;
-    padding-top: 8rem;
     margin: 0 auto;
     background: $light-gray;
 
@@ -8,7 +7,7 @@
         max-width: 1920px;
         width: 70%;
         margin: 0 auto;
-        padding: 2rem 2.2rem;
+        padding: 3rem 2.2rem;
         position: relative;
 
         h1 {
@@ -21,7 +20,7 @@
 
         p {
             font-size: 1.4rem;
-            font-family: 'Qanelas-regular';
+            font-family: 'Qanelas-light';
             color: $dark-blue;
             line-height: 1.6;
             text-align: center;
@@ -83,7 +82,7 @@
         background: $light-gray;
         text-align: center;
         font-size: 1.2rem;
-        font-family: 'Qanelas-regular';
+        font-family: 'Qanelas-light';
         color: $dark-blue;
         padding: 0 1rem;
         display: flex;
@@ -226,6 +225,9 @@
 }
 @media screen and (max-width:425px) {
     .fits-for-you {
+      .fit-text{
+        padding:2rem 0;
+      }
         .cards-container {
             position: relative;
 

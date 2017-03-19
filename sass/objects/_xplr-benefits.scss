@@ -1,0 +1,193 @@
+.xplr-benefits {
+    max-width: 1920px;
+    display: block;
+    margin: 0 auto;
+}
+
+.xplr-benefits__article {
+    position: relative;
+    overflow: hidden;
+    // height: 500px;
+}
+
+.xplr-benefits__bgr {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+
+    .bgr__person--left {
+        margin-left: auto;
+        background: url('../imgs/XPLR/bkgr2.png') no-repeat 10% 0;
+        background-size: cover;
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    .bgr__person--right {
+        margin-left: auto;
+        background: url('../imgs/XPLR/bkgr3.png') no-repeat 0 0;
+        background-size: cover;
+        width: 50%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .bgr__pattern {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+    }
+
+    .bgr__pattern--yellow {
+        transform: skew(30deg);
+        transform-origin: 0 100%;
+        left: 50%;
+        right: -35%;
+        background: $yellow;
+    }
+
+    .bgr__pattern--sea {
+        transform: skew(30deg);
+        transform-origin: 100% 0;
+        left: -35%;
+        right: 50%;
+        background: $sea;
+    }
+}
+
+.xplr-article__container {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    padding: 10rem 0 8rem;
+
+    .xplr-article__content {
+        display: block;
+        width: 50%;
+        color: $dark-blue;
+
+        h2 {
+            font-size: 1.6rem;
+            font-family: 'Qanelas-bold';
+            text-transform: uppercase;
+            margin-bottom: 1.6rem;
+        }
+
+        p {
+            font-size: 1.4rem;
+            font-family: 'Qanelas-regular';
+            margin-bottom: 1.6rem;
+            line-height: 1.6;
+        }
+    }
+
+    .xplr-article__content--right {
+        margin-left: auto;
+    }
+}
+
+.xplr-article__list {
+    list-style-type: none;
+    font-family: 'Qanelas-semibold';
+    font-size: 1.2rem;
+
+    li {
+        position: relative;
+        line-height: 1.6;
+        margin-left: 40px;
+
+        &:before {
+            position: absolute;
+            top: 40%;
+            left: -40px;
+            content: '';
+            background: url('../imgs/XPLR/02.png') no-repeat;
+            background-size: cover;
+            width: 40px;
+            height: 40px;
+            transform: translate(0,-50%);
+        }
+    }
+}
+@media screen and (max-width:1600px) {
+    .xplr-article__container {
+        width: 85%;
+        padding: 8rem 0 6rem;
+    }
+}
+@media screen and (max-width:1440px) {
+    .xplr-article__container {
+        padding: 6rem 0 4rem;
+    }
+}
+@media screen and (max-width:1200px) {
+    .xplr-article__container {
+        padding: 4rem 0 2rem;
+    }
+
+    .xplr-benefits__bgr {
+        .bgr__person--left {
+            background: url('../imgs/XPLR/bkgr2.png') no-repeat 30% 0;
+        }
+
+        .bgr__person--right {
+            background: url('../imgs/XPLR/bkgr3.png') no-repeat 40% 0;
+        }
+    }
+}
+@media screen and (max-width:1024px) {
+    .xplr-benefits__article {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .xplr-benefits__bgr {
+        position: relative;
+        z-index: 2;
+
+        .bgr__person--left {
+            background: url('../imgs/XPLR/bkgr2.png') no-repeat 0 0;
+            background-size: cover;
+            height: 400px;
+            width: 100%;
+            position: relative;
+        }
+
+        .bgr__person--right {
+            background: url('../imgs/XPLR/bkgr3.png') no-repeat 60% 10%;
+            background-size: cover;
+            height: 400px;
+            width: 100%;
+            position: relative;
+        }
+
+        .bgr__pattern {
+            display: none;
+        }
+    }
+
+    .xplr-article__container {
+        .xplr-article__content {
+            width: 100%;
+        }
+    }
+
+    .bgr-yellow {
+        background: $yellow;
+    }
+
+    .bgr-sea {
+        background: $sea;
+    }
+}
+@media screen and (max-width:768px) {
+    .xplr-article__container {}
+}

@@ -1,0 +1,129 @@
+.instagram-gallery__container {
+    width: 70%;
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+
+.instagram-gallery__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+        font-size: 2rem;
+        text-transform: uppercase;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        font-family: 'Qanelas-black';
+        color: $dark-blue;
+
+        i {
+            font-size: 4rem;
+            margin-right: 1rem;
+        }
+    }
+
+    p {
+        text-transform: uppercase;
+        font-family: 'Qanelas-semibold';
+        color: $cloudy;
+        font-size: 1.2rem;
+    }
+}
+
+.instagram-photos {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: calc(100% + 1rem);
+    margin-left: -0.5rem;
+    padding: 2rem 0;
+
+    .instagram-photo {
+        width: calc(100%/5 - 1rem);
+        // margin:0.5rem 0 0.5rem 1rem;
+        margin: 0.5rem;
+        position: relative;
+        filter: grayscale(70%);
+        transition: filter 0.4s;
+        cursor: pointer;
+        will-change: filter;
+
+        &:hover {
+            filter: grayscale(0%);
+
+            .inst__plus {
+                opacity: 1;
+            }
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .inst__plus {
+            width: 80px;
+            height: 80px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            opacity: 0;
+            transition: opacity 0.8s;
+            will-change: opacity;
+        }
+    }
+}
+@media screen and (max-width:1600px) {
+    .instagram-gallery__container {
+        width: 85%;
+        margin: 0 auto;
+        padding: 4rem 0;
+    }
+}
+@media screen and (max-width:1200px) {
+    .instagram-gallery__container {
+        padding: 1rem 0;
+        width: 95%;
+    }
+
+    .instagram-gallery__header {
+        p {
+            display: none;
+        }
+    }
+
+    .instagram-photos {
+        padding: 1rem 0;
+    }
+}
+@media screen and (max-width:768px) {
+    .instagram-gallery__header {
+        justify-content: center;
+
+        h1 {
+            text-align: center;
+            flex-direction: column;
+
+            i {
+                margin: 0 0 1rem;
+            }
+        }
+    }
+
+    .instagram-photos {
+        .instagram-photo {
+            width: calc(100%/2 - 1rem);
+        }
+    }
+}
+@media screen and (max-width:320px){
+  .instagram-photos {
+      .instagram-photo {
+          width: calc(100%/1 - 1rem);
+      }
+  }
+}
